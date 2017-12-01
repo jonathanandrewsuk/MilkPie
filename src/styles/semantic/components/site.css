@@ -201,10 +201,3 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
          Site Overrides
 *******************************/
 
-#innerMenu {
-  border: 0;
-  webkit-box-shadow: 0px 0px 0px 0px;
-  -webkit-box-shadow: 0px 0px 0px 0px;
-          box-shadow: 0px 0px 0px 0px;
-  padding: 0;
-}
