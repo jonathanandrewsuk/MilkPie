@@ -14,9 +14,14 @@
     "semantic-ui-react": "^0.77.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "react:start": "react-scripts start",
+    "gulp:start": "gulp --gulpfile src/styles/semantic/gulpfile.js",
+    "start": "concurrently --kill-others 'npm run react:start' 'npm run gulp:start'",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1"
   }
 }

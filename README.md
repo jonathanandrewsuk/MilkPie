@@ -2,9 +2,10 @@
 
 1. "npm install"
 2. "npm start"
-3. Go into the "semantic" folder and run "gulp"
+3. Go into the "semantic" folder and run "gulp" <!-- NO need for this anymore!! -->
 
 When you make changes in the semantic folder (themes etc) the gulp will re-build the CSS in the "styles" folder in the app. Do not edit the "styles/semantic" folder, this is just an output folder.
+<!-- NO need for this anymore!! -->
 
 🤵🤵🤵🤵🤵🤵🤵
 

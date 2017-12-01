@@ -1,5 +1,5 @@
 {
-  "base": "semantic/",
+  "base": "src/styles/semantic/",
   "paths": {
     "source": {
       "config": "src/theme.config",
@@ -8,12 +8,12 @@
       "themes": "src/themes/"
     },
     "output": {
-      "packaged": "../src/styles/semantic/",
-      "uncompressed": "../src/styles/semantic/components/",
-      "compressed": "../src/styles/semantic/components/",
-      "themes": "../src/styles/semantic/themes/"
+      "packaged": "dist/",
+      "uncompressed": "dist/components/",
+      "compressed": "dist/components/",
+      "themes": "dist/themes/"
     },
-    "clean": "../src/styles/semantic/"
+    "clean": "dist/"
   },
   "permission": false,
   "autoInstall": false,
