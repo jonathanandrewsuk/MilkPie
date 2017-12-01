@@ -4,6 +4,7 @@ import TestButton from './TestButton'
 import TestHello from './TestHello'
 import ResponsiveLayout from './ResponsiveLayout'
 import TopNav from './TopNav'
+import ButtonExampleAnimated from './ButtonExampleAnimated'
 
 
 export {
@@ -12,5 +13,6 @@ export {
   TestButton,
   ResponsiveLayout,
   TopNav,
-  TestHello
+  TestHello,
+  ButtonExampleAnimated
 }
