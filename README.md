@@ -1,3 +1,13 @@
+## Here's how to get up'n Running
+
+1. "npm install"
+2. "npm start"
+3. Go into the "semantic" folder and run "gulp"
+
+When you make changes in the semantic folder (themes etc) the gulp will re-build the CSS in the "styles" folder in the app. Do not edit the "styles/semantic" folder, this is just an output folder.
+
+🤵🤵🤵🤵🤵🤵🤵
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
