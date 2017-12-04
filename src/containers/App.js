@@ -68,7 +68,7 @@ const NavBarDesktop = ({ leftItems, rightItems }) => (
 );
 
 const NavBarChildren = ({ children }) => (
-  <Container >{children}</Container>
+  <Container>{children}</Container>
 );
 
 class NavBar extends Component {
@@ -121,8 +121,8 @@ const rightItems = [
 
 const App = () => (
 
-    <NavBar leftItems={leftItems} rightItems={rightItems}>
-      <Main/>
+    <NavBar leftItems={leftItems} rightItems={rightItems} >
+        <Main/>
     </NavBar>
 
 
