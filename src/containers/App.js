@@ -9,8 +9,8 @@ import { TopNav } from '../components'
 class App extends Component {
   render() {
     return (
+<div>
 
-  <div>
     <Menu fixed='top' inverted>
       <Container>
         <Menu.Item as='a' header>
@@ -42,10 +42,13 @@ class App extends Component {
         </Dropdown>
       </Container>
     </Menu>
-    
-    <Main/>
+    <div style={{paddingTop: "100px"}}>
+      <Main/>
+    </div>
 
-  </div>
+
+
+</div>
 
   )
 }

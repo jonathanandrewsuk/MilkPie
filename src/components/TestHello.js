@@ -5,7 +5,7 @@ import { TestCard, ButtonExampleAnimated } from '../components'
 
 const TestHello = () => (
   <div>
-    <Container text style={{ marginTop: '7em' }}>
+    <Container text fluid>
       <Header as='h1'>This is an example of Semantic Themes in create-react-app</Header>
       <TestCard/>
       <Button>Button</Button>
