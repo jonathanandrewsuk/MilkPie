@@ -10,7 +10,7 @@ class Main extends Component {
   render() {
     return (
 
-      <main style={{ marginBottom:"30px"}}>
+      <main style={{ marginBottom:"30px", marginTop: "70px"}}>
         <Switch>
           <Route exact path='/' render={(props) => (<TestHello {...this.props}/>)}/>
         </Switch>
