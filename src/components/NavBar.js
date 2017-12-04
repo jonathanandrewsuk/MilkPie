@@ -38,9 +38,6 @@ const NavBarMobile = ({
     >
       {children}
       <Menu fixed="top" inverted>
-        <Menu.Item>
-          <Image size="mini" src="https://react.semantic-ui.com/logo.png" />
-        </Menu.Item>
         <Menu.Item style={{height: "60px"}} onClick={onToggle}>
           <Icon name="sidebar" />
         </Menu.Item>
