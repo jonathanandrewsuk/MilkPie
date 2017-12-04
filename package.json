@@ -15,7 +15,7 @@
   },
   "scripts": {
     "react:start": "react-scripts start",
-    "gulp:start": "gulp --gulpfile semantic/gulpfile.js",
+    "gulp:start": "gulp --gulpfile src/styles/semantic/gulpfile.js",
     "start": "concurrently --kill-others 'npm run react:start' 'npm run gulp:start'",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
