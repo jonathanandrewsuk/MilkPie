@@ -1,18 +1,4 @@
-import Boilerplate from './Boilerplate'
-import TestCard from './TestCard'
-import TestButton from './TestButton'
-import TestHello from './TestHello'
-import ResponsiveLayout from './ResponsiveLayout'
-import TopNav from './TopNav'
-import ButtonExampleAnimated from './ButtonExampleAnimated'
-
-
-export {
-  Boilerplate,
-  TestCard,
-  TestButton,
-  ResponsiveLayout,
-  TopNav,
-  TestHello,
-  ButtonExampleAnimated
-}
+// export { default as Home } from './Home'
+// export { default as PostManager } from './PostManager'
+export { default as LocationManager } from './LocationManager'
+export * from './shared'

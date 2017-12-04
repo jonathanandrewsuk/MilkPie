@@ -1,0 +1,354 @@
+[
+    {
+    "termId": 1,
+    "name": "Uncategorized",
+    "slug": "uncategorized",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": ""
+    },
+    {
+    "termId": 4,
+    "name": "Places",
+    "slug": "places",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-5.png"
+    },
+    {
+    "termId": 5,
+    "name": "Entertainment",
+    "slug": "entertainment",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-10.png"
+    },
+    {
+    "termId": 6,
+    "name": "Clubs",
+    "slug": "clubs",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-5.png"
+    },
+    {
+    "termId": 7,
+    "name": "Museums",
+    "slug": "museums",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-1.png"
+    },
+    {
+    "termId": 8,
+    "name": "Parks",
+    "slug": "parks",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-3.png"
+    },
+    {
+    "termId": 9,
+    "name": "Restaurants",
+    "slug": "restaurants",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-8.png"
+    },
+    {
+    "termId": 10,
+    "name": "News",
+    "slug": "news",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": ""
+    },
+    {
+    "termId": 11,
+    "name": "Directory",
+    "slug": "directory",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": ""
+    },
+    {
+    "termId": 12,
+    "name": "Arts &amp; Crafts",
+    "slug": "arts-crafts",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-1.png"
+    },
+    {
+    "termId": 13,
+    "name": "Automotive &amp; Transport",
+    "slug": "automotive-transport",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-2.png"
+    },
+    {
+    "termId": 14,
+    "name": "Beauty",
+    "slug": "beauty",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-3.png"
+    },
+    {
+    "termId": 15,
+    "name": "Business Services",
+    "slug": "business-services",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-4.png"
+    },
+    {
+    "termId": 16,
+    "name": "Computers &amp; Technical",
+    "slug": "computers-technical",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-6.png"
+    },
+    {
+    "termId": 17,
+    "name": "Construction",
+    "slug": "construction",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-7.png"
+    },
+    {
+    "termId": 18,
+    "name": "Courses and Classes",
+    "slug": "courses-and-classes",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-8.png"
+    },
+    {
+    "termId": 19,
+    "name": "Design &amp; Advertising",
+    "slug": "design-advertising",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-9.png"
+    },
+    {
+    "termId": 20,
+    "name": "Events &amp; Conferences",
+    "slug": "events-conferences",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-11.png"
+    },
+    {
+    "termId": 21,
+    "name": "Fashion and Clothing",
+    "slug": "fashion-and-clothing",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-1.png"
+    },
+    {
+    "termId": 22,
+    "name": "Financial Services",
+    "slug": "financial-services",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-2.png"
+    },
+    {
+    "termId": 23,
+    "name": "Food and Drink",
+    "slug": "food-and-drink",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-3.png"
+    },
+    {
+    "termId": 24,
+    "name": "Haulage and Shipping",
+    "slug": "haulage-and-shipping",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-4.png"
+    },
+    {
+    "termId": 25,
+    "name": "Health and Fitness",
+    "slug": "health-and-fitness",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-5.png"
+    },
+    {
+    "termId": 26,
+    "name": "Home and Garden",
+    "slug": "home-and-garden",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-6.png"
+    },
+    {
+    "termId": 27,
+    "name": "Home and Office Furniture",
+    "slug": "home-and-office-furniture",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-7.png"
+    },
+    {
+    "termId": 28,
+    "name": "Internet",
+    "slug": "internet",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-8.png"
+    },
+    {
+    "termId": 29,
+    "name": "Legal Services",
+    "slug": "legal-services",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-9.png"
+    },
+    {
+    "termId": 30,
+    "name": "Manufacturing and Industry",
+    "slug": "manufacturing-and-industry",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-10.png"
+    },
+    {
+    "termId": 31,
+    "name": "Marketing",
+    "slug": "marketing",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-11.png"
+    },
+    {
+    "termId": 32,
+    "name": "Music",
+    "slug": "music",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-2.png"
+    },
+    {
+    "termId": 33,
+    "name": "Pets and Animals",
+    "slug": "pets-and-animals",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-4.png"
+    },
+    {
+    "termId": 34,
+    "name": "Property and Real Estate",
+    "slug": "property-and-real-estate",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-6.png"
+    },
+    {
+    "termId": 35,
+    "name": "Public and Social Services",
+    "slug": "public-and-social-services",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-7.png"
+    },
+    {
+    "termId": 36,
+    "name": "Shopping and Goods",
+    "slug": "shopping-and-goods",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-9.png"
+    },
+    {
+    "termId": 37,
+    "name": "Sports and Leisure",
+    "slug": "sports-and-leisure",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-10.png"
+    },
+    {
+    "termId": 38,
+    "name": "Tradesmen and Services",
+    "slug": "tradesmen-and-services",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-11.png"
+    },
+    {
+    "termId": 39,
+    "name": "Travel and Tourism",
+    "slug": "travel-and-tourism",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-1.png"
+    },
+    {
+    "termId": 40,
+    "name": "TV and Video",
+    "slug": "tv-and-video",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-2.png"
+    },
+    {
+    "termId": 41,
+    "name": "Weddings",
+    "slug": "weddings",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": "http://localhost/wp-content/themes/Listings/images/markers/marker-3.png"
+    },
+    {
+    "termId": 42,
+    "name": "Tags",
+    "slug": "tags",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": ""
+    },
+    {
+    "termId": 43,
+    "name": "Sample Tags",
+    "slug": "sample-tags",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": ""
+    },
+    {
+    "termId": 44,
+    "name": "primary",
+    "slug": "primary",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": ""
+    },
+    {
+    "termId": 45,
+    "name": "secondary",
+    "slug": "secondary",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": ""
+    },
+    {
+    "termId": 46,
+    "name": "Listings 2",
+    "slug": "listings-2",
+    "termGroup": 0,
+    "termPrice": "0",
+    "termIcon": ""
+    }
+    ]

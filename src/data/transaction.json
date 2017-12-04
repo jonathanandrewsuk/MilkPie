@@ -1,0 +1,20 @@
+{
+    "userId": 2,
+    "postId": "{postId}",
+    "postTitle": "{postTitle}",
+    "status": 0,
+    "paymentMethod": "Free",
+    "payableAmt": 0,
+    "paymentDate": "2017-11-26T00:13:22.000Z",
+    "paypalTransectionId": "",
+    "userName": "admin",
+    "payEmail": "nmarcellin2@gmail.com",
+    "billingName": "admin",
+    "billingAdd": "",
+    "packageId": 34,
+    "packageType": null,
+    "payforpackage": 1,
+    "payforfeaturedH": 0,
+    "payforfeaturedC": 0,
+    "payforcategory": 0
+}

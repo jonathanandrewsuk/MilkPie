@@ -1,0 +1,354 @@
+[
+    {
+    "termTaxonomyId": 1,
+    "termId": 1,
+    "taxonomy": "category",
+    "description": "",
+    "parent": 0,
+    "count": 1
+    },
+    {
+    "termTaxonomyId": 4,
+    "termId": 4,
+    "taxonomy": "listingcategory",
+    "description": "This is the category description for the Places category. You can change it here: Listing &gt; Listing categories. This is an excellent way to attract your users and explain what this category is all about and also explain what they can do in this category and how does it matter to them.",
+    "parent": 0,
+    "count": 13
+    },
+    {
+    "termTaxonomyId": 5,
+    "termId": 5,
+    "taxonomy": "listingcategory",
+    "description": "This is the category description for the Places category. You can change it here: Listing &gt; Listing categories. This is an excellent way to attract your users and explain what this category is all about and also explain what they can do in this category and how does it matter to them.",
+    "parent": 0,
+    "count": 6
+    },
+    {
+    "termTaxonomyId": 6,
+    "termId": 6,
+    "taxonomy": "listingcategory",
+    "description": "This is the category description for the Places category. You can change it here: Listing &gt; Listing categories. This is an excellent way to attract your users and explain what this category is all about and also explain what they can do in this category and how does it matter to them.",
+    "parent": 5,
+    "count": 10
+    },
+    {
+    "termTaxonomyId": 7,
+    "termId": 7,
+    "taxonomy": "listingcategory",
+    "description": "This is the category description for the Places category. You can change it here: Listing &gt; Listing categories. This is an excellent way to attract your users and explain what this category is all about and also explain what they can do in this category and how does it matter to them.",
+    "parent": 5,
+    "count": 9
+    },
+    {
+    "termTaxonomyId": 8,
+    "termId": 8,
+    "taxonomy": "listingcategory",
+    "description": "This is the category description for the Places category. You can change it here: Listing &gt; Listing categories. This is an excellent way to attract your users and explain what this category is all about and also explain what they can do in this category and how does it matter to them.",
+    "parent": 4,
+    "count": 3
+    },
+    {
+    "termTaxonomyId": 9,
+    "termId": 9,
+    "taxonomy": "listingcategory",
+    "description": "This is the category description for the Places category. You can change it here: Listing &gt; Listing categories. This is an excellent way to attract your users and explain what this category is all about and also explain what they can do in this category and how does it matter to them.",
+    "parent": 4,
+    "count": 5
+    },
+    {
+    "termTaxonomyId": 10,
+    "termId": 10,
+    "taxonomy": "category",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 4
+    },
+    {
+    "termTaxonomyId": 11,
+    "termId": 11,
+    "taxonomy": "category",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 4
+    },
+    {
+    "termTaxonomyId": 12,
+    "termId": 12,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 2
+    },
+    {
+    "termTaxonomyId": 13,
+    "termId": 13,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 2
+    },
+    {
+    "termTaxonomyId": 14,
+    "termId": 14,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 2
+    },
+    {
+    "termTaxonomyId": 15,
+    "termId": 15,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 2
+    },
+    {
+    "termTaxonomyId": 16,
+    "termId": 16,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 2
+    },
+    {
+    "termTaxonomyId": 17,
+    "termId": 17,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 2
+    },
+    {
+    "termTaxonomyId": 18,
+    "termId": 18,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 2
+    },
+    {
+    "termTaxonomyId": 19,
+    "termId": 19,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 2
+    },
+    {
+    "termTaxonomyId": 20,
+    "termId": 20,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 2
+    },
+    {
+    "termTaxonomyId": 21,
+    "termId": 21,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 2
+    },
+    {
+    "termTaxonomyId": 22,
+    "termId": 22,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 2
+    },
+    {
+    "termTaxonomyId": 23,
+    "termId": 23,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 3
+    },
+    {
+    "termTaxonomyId": 24,
+    "termId": 24,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 2
+    },
+    {
+    "termTaxonomyId": 25,
+    "termId": 25,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 2
+    },
+    {
+    "termTaxonomyId": 26,
+    "termId": 26,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 2
+    },
+    {
+    "termTaxonomyId": 27,
+    "termId": 27,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 1
+    },
+    {
+    "termTaxonomyId": 28,
+    "termId": 28,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 1
+    },
+    {
+    "termTaxonomyId": 29,
+    "termId": 29,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 1
+    },
+    {
+    "termTaxonomyId": 30,
+    "termId": 30,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 1
+    },
+    {
+    "termTaxonomyId": 31,
+    "termId": 31,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 1
+    },
+    {
+    "termTaxonomyId": 32,
+    "termId": 32,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 1
+    },
+    {
+    "termTaxonomyId": 33,
+    "termId": 33,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 1
+    },
+    {
+    "termTaxonomyId": 34,
+    "termId": 34,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 1
+    },
+    {
+    "termTaxonomyId": 35,
+    "termId": 35,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 1
+    },
+    {
+    "termTaxonomyId": 36,
+    "termId": 36,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 1
+    },
+    {
+    "termTaxonomyId": 37,
+    "termId": 37,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 1
+    },
+    {
+    "termTaxonomyId": 38,
+    "termId": 38,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 1
+    },
+    {
+    "termTaxonomyId": 39,
+    "termId": 39,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 1
+    },
+    {
+    "termTaxonomyId": 40,
+    "termId": 40,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 1
+    },
+    {
+    "termTaxonomyId": 41,
+    "termId": 41,
+    "taxonomy": "listingcategory",
+    "description": "You can disable/enable this sorting option from wp-admin – Tevolution – Settings – Category Page – Sorting option. Also, you can set the default list view or grid view from here. To enable the map view enable the Map view option from the same page. To change this text go to wp-admin - Listings - listings Category - and change the description of individual category.",
+    "parent": 0,
+    "count": 1
+    },
+    {
+    "termTaxonomyId": 42,
+    "termId": 42,
+    "taxonomy": "post_tag",
+    "description": "",
+    "parent": 0,
+    "count": 4
+    },
+    {
+    "termTaxonomyId": 43,
+    "termId": 43,
+    "taxonomy": "post_tag",
+    "description": "",
+    "parent": 0,
+    "count": 4
+    },
+    {
+    "termTaxonomyId": 44,
+    "termId": 44,
+    "taxonomy": "nav_menu",
+    "description": "",
+    "parent": 0,
+    "count": 1
+    },
+    {
+    "termTaxonomyId": 45,
+    "termId": 45,
+    "taxonomy": "nav_menu",
+    "description": "",
+    "parent": 0,
+    "count": 20
+    },
+    {
+    "termTaxonomyId": 46,
+    "termId": 46,
+    "taxonomy": "nav_menu",
+    "description": "",
+    "parent": 0,
+    "count": 5
+    }
+    ]

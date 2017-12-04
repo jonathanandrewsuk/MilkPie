@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Header, Button } from 'semantic-ui-react'
 
-import { TestCard, ButtonExampleAnimated } from '../components'
+import { TestCard, ButtonExampleAnimated } from '.'
 
 const TestHello = () => (
   <div>

@@ -1,0 +1,1938 @@
+[
+    {
+    "countryId": 1,
+    "countryName": "Afghanistan",
+    "isoCode2": "AF",
+    "isoCode3": "AFG",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/af.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 2,
+    "countryName": "Albania",
+    "isoCode2": "AL",
+    "isoCode3": "ALB",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/al.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 3,
+    "countryName": "Algeria",
+    "isoCode2": "DZ",
+    "isoCode3": "DZA",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/dz.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 4,
+    "countryName": "American Samoa",
+    "isoCode2": "AS",
+    "isoCode3": "ASM",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/as.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 5,
+    "countryName": "Andorra",
+    "isoCode2": "AD",
+    "isoCode3": "AND",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ad.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 6,
+    "countryName": "Angola",
+    "isoCode2": "AO",
+    "isoCode3": "AGO",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ao.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 7,
+    "countryName": "Anguilla",
+    "isoCode2": "AI",
+    "isoCode3": "AIA",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ai.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 8,
+    "countryName": "Antarctica",
+    "isoCode2": "AQ",
+    "isoCode3": "ATA",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/aq.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 9,
+    "countryName": "Antigua and Barbuda",
+    "isoCode2": "AG",
+    "isoCode3": "ATG",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ag.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 10,
+    "countryName": "Argentina",
+    "isoCode2": "AR",
+    "isoCode3": "ARG",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ar.alt.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 11,
+    "countryName": "Armenia",
+    "isoCode2": "AM",
+    "isoCode3": "ARM",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/am.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 12,
+    "countryName": "Aruba",
+    "isoCode2": "AW",
+    "isoCode3": "ABW",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/aw.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 13,
+    "countryName": "Australia",
+    "isoCode2": "AU",
+    "isoCode3": "AUS",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/au.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 14,
+    "countryName": "Austria",
+    "isoCode2": "AT",
+    "isoCode3": "AUT",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/at.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 15,
+    "countryName": "Azerbaijan",
+    "isoCode2": "AZ",
+    "isoCode3": "AZE",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/az.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 16,
+    "countryName": "Bahamas",
+    "isoCode2": "BS",
+    "isoCode3": "BHS",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/bs.bs.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 17,
+    "countryName": "Bahrain",
+    "isoCode2": "BH",
+    "isoCode3": "BHR",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/bh.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 18,
+    "countryName": "Bangladesh",
+    "isoCode2": "BD",
+    "isoCode3": "BGD",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/bd.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 19,
+    "countryName": "Barbados",
+    "isoCode2": "BB",
+    "isoCode3": "BRB",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/bb.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 20,
+    "countryName": "Belarus",
+    "isoCode2": "BY",
+    "isoCode3": "BLR",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/by.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 21,
+    "countryName": "Belgium",
+    "isoCode2": "BE",
+    "isoCode3": "BEL",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/be.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 22,
+    "countryName": "Belize",
+    "isoCode2": "BZ",
+    "isoCode3": "BLZ",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/bz.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 23,
+    "countryName": "Benin",
+    "isoCode2": "BJ",
+    "isoCode3": "BEN",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/bj.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 24,
+    "countryName": "Bermuda",
+    "isoCode2": "BM",
+    "isoCode3": "BMU",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/bm.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 25,
+    "countryName": "Bhutan",
+    "isoCode2": "BT",
+    "isoCode3": "BTN",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/bt.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 26,
+    "countryName": "Bolivia",
+    "isoCode2": "BO",
+    "isoCode3": "BOL",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/bo.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 27,
+    "countryName": "Bosnia and Herzegowina",
+    "isoCode2": "BA",
+    "isoCode3": "BIH",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/bs.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 28,
+    "countryName": "Botswana",
+    "isoCode2": "BW",
+    "isoCode3": "BWA",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/bw.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 29,
+    "countryName": "Bouvet Island",
+    "isoCode2": "BV",
+    "isoCode3": "BVT",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/bv.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 30,
+    "countryName": "Brazil",
+    "isoCode2": "BR",
+    "isoCode3": "BRA",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/br.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 31,
+    "countryName": "British Indian Ocean Territory",
+    "isoCode2": "IO",
+    "isoCode3": "IOT",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/io.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 32,
+    "countryName": "Brunei Darussalam",
+    "isoCode2": "BN",
+    "isoCode3": "BRN",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/bn.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 33,
+    "countryName": "Bulgaria",
+    "isoCode2": "BG",
+    "isoCode3": "BGR",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/bg.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 34,
+    "countryName": "Burkina Faso",
+    "isoCode2": "BF",
+    "isoCode3": "BFA",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/bf.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 35,
+    "countryName": "Burundi",
+    "isoCode2": "BI",
+    "isoCode3": "BDI",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/bi.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 36,
+    "countryName": "Cambodia",
+    "isoCode2": "KH",
+    "isoCode3": "KHM",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/kh.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 37,
+    "countryName": "Cameroon",
+    "isoCode2": "CM",
+    "isoCode3": "CMR",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/cm.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 38,
+    "countryName": "Canada",
+    "isoCode2": "CA",
+    "isoCode3": "CAN",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/canada.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 39,
+    "countryName": "Cape Verde",
+    "isoCode2": "CV",
+    "isoCode3": "CPV",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/cv.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 40,
+    "countryName": "Cayman Islands",
+    "isoCode2": "KY",
+    "isoCode3": "CYM",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ky.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 41,
+    "countryName": "Central African Republic",
+    "isoCode2": "CF",
+    "isoCode3": "CAF",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/cf.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 42,
+    "countryName": "Chad",
+    "isoCode2": "TD",
+    "isoCode3": "TCD",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/td.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 43,
+    "countryName": "Chile",
+    "isoCode2": "CL",
+    "isoCode3": "CHL",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/cl.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 44,
+    "countryName": "China",
+    "isoCode2": "CN",
+    "isoCode3": "CHN",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/cn.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 45,
+    "countryName": "Christmas Island",
+    "isoCode2": "CX",
+    "isoCode3": "CXR",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/cx.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 46,
+    "countryName": "Cocos (Keeling) Islands",
+    "isoCode2": "CC",
+    "isoCode3": "CCK",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/cc.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 47,
+    "countryName": "Colombia",
+    "isoCode2": "CO",
+    "isoCode3": "COL",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/co.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 48,
+    "countryName": "Comoros",
+    "isoCode2": "KM",
+    "isoCode3": "COM",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/km.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 49,
+    "countryName": "Congo",
+    "isoCode2": "CG",
+    "isoCode3": "COG",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/cg.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 50,
+    "countryName": "Cook Islands",
+    "isoCode2": "CK",
+    "isoCode3": "COK",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ck.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 51,
+    "countryName": "Costa Rica",
+    "isoCode2": "CR",
+    "isoCode3": "CRI",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/cr.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 52,
+    "countryName": "Cote D'Ivoire",
+    "isoCode2": "CI",
+    "isoCode3": "CIV",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ci.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 53,
+    "countryName": "Croatia",
+    "isoCode2": "HR",
+    "isoCode3": "HRV",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/hr.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 54,
+    "countryName": "Cuba",
+    "isoCode2": "CU",
+    "isoCode3": "CUB",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/cu.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 55,
+    "countryName": "Cyprus",
+    "isoCode2": "CY",
+    "isoCode3": "CYP",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/cy.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 56,
+    "countryName": "Czech Republic",
+    "isoCode2": "CZ",
+    "isoCode3": "CZE",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/cz.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 57,
+    "countryName": "Denmark",
+    "isoCode2": "DK",
+    "isoCode3": "DNK",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/dk.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 58,
+    "countryName": "Djibouti",
+    "isoCode2": "DJ",
+    "isoCode3": "DJI",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/dj.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 59,
+    "countryName": "Dominica",
+    "isoCode2": "DM",
+    "isoCode3": "DMA",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/dm.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 60,
+    "countryName": "Dominican Republic",
+    "isoCode2": "DO",
+    "isoCode3": "DOM",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/do.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 61,
+    "countryName": "East Timor",
+    "isoCode2": "TP",
+    "isoCode3": "TMP",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/tl.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 62,
+    "countryName": "Ecuador",
+    "isoCode2": "EC",
+    "isoCode3": "ECU",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ec.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 63,
+    "countryName": "Egypt",
+    "isoCode2": "EG",
+    "isoCode3": "EGY",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/eg.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 64,
+    "countryName": "El Salvador",
+    "isoCode2": "SV",
+    "isoCode3": "SLV",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/sv.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 65,
+    "countryName": "Equatorial Guinea",
+    "isoCode2": "GQ",
+    "isoCode3": "GNQ",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/gq.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 66,
+    "countryName": "Eritrea",
+    "isoCode2": "ER",
+    "isoCode3": "ERI",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/er.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 67,
+    "countryName": "Estonia",
+    "isoCode2": "EE",
+    "isoCode3": "EST",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/et.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 68,
+    "countryName": "Ethiopia",
+    "isoCode2": "ET",
+    "isoCode3": "ETH",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/et.o.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 69,
+    "countryName": "Falkland Islands (Malvinas)",
+    "isoCode2": "FK",
+    "isoCode3": "FLK",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/fk.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 70,
+    "countryName": "Faroe Islands",
+    "isoCode2": "FO",
+    "isoCode3": "FRO",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/fo.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 71,
+    "countryName": "Fiji",
+    "isoCode2": "FJ",
+    "isoCode3": "FJI",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/fj.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 72,
+    "countryName": "Finland",
+    "isoCode2": "FI",
+    "isoCode3": "FIN",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/fi.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 73,
+    "countryName": "France",
+    "isoCode2": "FR",
+    "isoCode3": "FRA",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/fr.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 74,
+    "countryName": "France Metropolitan",
+    "isoCode2": "FX",
+    "isoCode3": "FXX",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/fr.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 75,
+    "countryName": "French Guiana",
+    "isoCode2": "GF",
+    "isoCode3": "GUF",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/gf.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 76,
+    "countryName": "French Polynesia",
+    "isoCode2": "PF",
+    "isoCode3": "PYF",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/pf.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 77,
+    "countryName": "French Southern Territories",
+    "isoCode2": "TF",
+    "isoCode3": "ATF",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/tf.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 78,
+    "countryName": "Gabon",
+    "isoCode2": "GA",
+    "isoCode3": "GAB",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ga.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 79,
+    "countryName": "Gambia",
+    "isoCode2": "GM",
+    "isoCode3": "GMB",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/gm.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 80,
+    "countryName": "Georgia",
+    "isoCode2": "GE",
+    "isoCode3": "GEO",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ge.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 81,
+    "countryName": "Germany",
+    "isoCode2": "DE",
+    "isoCode3": "DEU",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/de.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 82,
+    "countryName": "Ghana",
+    "isoCode2": "GH",
+    "isoCode3": "GHA",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/gh.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 83,
+    "countryName": "Gibraltar",
+    "isoCode2": "GI",
+    "isoCode3": "GIB",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/gi.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 84,
+    "countryName": "Greece",
+    "isoCode2": "GR",
+    "isoCode3": "GRC",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/gr.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 85,
+    "countryName": "Greenland",
+    "isoCode2": "GL",
+    "isoCode3": "GRL",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/gl.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 86,
+    "countryName": "Grenada",
+    "isoCode2": "GD",
+    "isoCode3": "GRD",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/gd.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 87,
+    "countryName": "Guadeloupe",
+    "isoCode2": "GP",
+    "isoCode3": "GLP",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/gp.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 88,
+    "countryName": "Guam",
+    "isoCode2": "GU",
+    "isoCode3": "GUM",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/gu.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 89,
+    "countryName": "Guatemala",
+    "isoCode2": "GT",
+    "isoCode3": "GTM",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/gt.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 90,
+    "countryName": "Guinea",
+    "isoCode2": "GN",
+    "isoCode3": "GIN",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/gn.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 91,
+    "countryName": "Guinea-bissau",
+    "isoCode2": "GW",
+    "isoCode3": "GNB",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/gw.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 92,
+    "countryName": "Guyana",
+    "isoCode2": "GY",
+    "isoCode3": "GUY",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/gy.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 93,
+    "countryName": "Haiti",
+    "isoCode2": "HT",
+    "isoCode3": "HTI",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ht.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 94,
+    "countryName": "Heard and Mc Donald Islands",
+    "isoCode2": "HM",
+    "isoCode3": "HMD",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/hm.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 95,
+    "countryName": "Honduras",
+    "isoCode2": "HN",
+    "isoCode3": "HND",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/hn.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 96,
+    "countryName": "Hong Kong",
+    "isoCode2": "HK",
+    "isoCode3": "HKG",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/hk.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 97,
+    "countryName": "Hungary",
+    "isoCode2": "HU",
+    "isoCode3": "HUN",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/hu.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 98,
+    "countryName": "Iceland",
+    "isoCode2": "IS",
+    "isoCode3": "ISL",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/is.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 99,
+    "countryName": "India",
+    "isoCode2": "IN",
+    "isoCode3": "IND",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/in.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 100,
+    "countryName": "Indonesia",
+    "isoCode2": "ID",
+    "isoCode3": "IDN",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/id.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 101,
+    "countryName": "Iran (Islamic Republic of)",
+    "isoCode2": "IR",
+    "isoCode3": "IRN",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ir.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 102,
+    "countryName": "Iraq",
+    "isoCode2": "IQ",
+    "isoCode3": "IRQ",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/iq.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 103,
+    "countryName": "Ireland",
+    "isoCode2": "IE",
+    "isoCode3": "IRL",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ie.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 104,
+    "countryName": "Israel",
+    "isoCode2": "IL",
+    "isoCode3": "ISR",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/il.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 105,
+    "countryName": "Italy",
+    "isoCode2": "IT",
+    "isoCode3": "ITA",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/it.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 106,
+    "countryName": "Jamaica",
+    "isoCode2": "JM",
+    "isoCode3": "JAM",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/jm.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 107,
+    "countryName": "Japan",
+    "isoCode2": "JP",
+    "isoCode3": "JPN",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/jp.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 108,
+    "countryName": "Jordan",
+    "isoCode2": "JO",
+    "isoCode3": "JOR",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/jo.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 109,
+    "countryName": "Kazakhstan",
+    "isoCode2": "KZ",
+    "isoCode3": "KAZ",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/kz.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 110,
+    "countryName": "Kenya",
+    "isoCode2": "KE",
+    "isoCode3": "KEN",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ke.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 111,
+    "countryName": "Kiribati",
+    "isoCode2": "KI",
+    "isoCode3": "KIR",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ki.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 112,
+    "countryName": "Korea Democratic People's Republic of",
+    "isoCode2": "KP",
+    "isoCode3": "PRK",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/kp.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 113,
+    "countryName": "Korea Republic of",
+    "isoCode2": "KR",
+    "isoCode3": "KOR",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/kr.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 114,
+    "countryName": "Kosovo",
+    "isoCode2": "XK",
+    "isoCode3": "UNK",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/kos.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 115,
+    "countryName": "Kuwait",
+    "isoCode2": "KW",
+    "isoCode3": "KWT",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/kw.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 116,
+    "countryName": "Kyrgyzstan",
+    "isoCode2": "KG",
+    "isoCode3": "KGZ",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/kg.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 117,
+    "countryName": "Lao People's Democratic Republic",
+    "isoCode2": "LA",
+    "isoCode3": "LAO",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/la.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 118,
+    "countryName": "Latvia",
+    "isoCode2": "LV",
+    "isoCode3": "LVA",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/lv.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 119,
+    "countryName": "Lebanon",
+    "isoCode2": "LB",
+    "isoCode3": "LBN",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/lb.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 120,
+    "countryName": "Lesotho",
+    "isoCode2": "LS",
+    "isoCode3": "LSO",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ls.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 121,
+    "countryName": "Liberia",
+    "isoCode2": "LR",
+    "isoCode3": "LBR",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/lr.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 122,
+    "countryName": "Libyan Arab Jamahiriya",
+    "isoCode2": "LY",
+    "isoCode3": "LBY",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ly.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 123,
+    "countryName": "Liechtenstein",
+    "isoCode2": "LI",
+    "isoCode3": "LIE",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/li.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 124,
+    "countryName": "Lithuania",
+    "isoCode2": "LT",
+    "isoCode3": "LTU",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/lt.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 125,
+    "countryName": "Luxembourg",
+    "isoCode2": "LU",
+    "isoCode3": "LUX",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/lu.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 126,
+    "countryName": "Macau",
+    "isoCode2": "MO",
+    "isoCode3": "MAC",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/mo.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 127,
+    "countryName": "Macedonia The Former Yugoslav Republic of",
+    "isoCode2": "MK",
+    "isoCode3": "MKD",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/mk.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 128,
+    "countryName": "Madagascar",
+    "isoCode2": "MG",
+    "isoCode3": "MDG",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/mg.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 129,
+    "countryName": "Malawi",
+    "isoCode2": "MW",
+    "isoCode3": "MWI",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/mw.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 130,
+    "countryName": "Malaysia",
+    "isoCode2": "MY",
+    "isoCode3": "MYS",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/my.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 131,
+    "countryName": "Maldives",
+    "isoCode2": "MV",
+    "isoCode3": "MDV",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/mv.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 132,
+    "countryName": "Mali",
+    "isoCode2": "ML",
+    "isoCode3": "MLI",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ml.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 133,
+    "countryName": "Malta",
+    "isoCode2": "MT",
+    "isoCode3": "MLT",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/mt.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 134,
+    "countryName": "Marshall Islands",
+    "isoCode2": "MH",
+    "isoCode3": "MHL",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/mh.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 135,
+    "countryName": "Martinique",
+    "isoCode2": "MQ",
+    "isoCode3": "MTQ",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/mq.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 136,
+    "countryName": "Mauritania",
+    "isoCode2": "MR",
+    "isoCode3": "MRT",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/mr.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 137,
+    "countryName": "Mauritius",
+    "isoCode2": "MU",
+    "isoCode3": "MUS",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/mu.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 138,
+    "countryName": "Mayotte",
+    "isoCode2": "YT",
+    "isoCode3": "MYT",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/yt.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 139,
+    "countryName": "Mexico",
+    "isoCode2": "MX",
+    "isoCode3": "MEX",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/mx.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 140,
+    "countryName": "Micronesia Federated States of",
+    "isoCode2": "FM",
+    "isoCode3": "FSM",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/fm.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 141,
+    "countryName": "Moldova Republic of",
+    "isoCode2": "MD",
+    "isoCode3": "MDA",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/md.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 142,
+    "countryName": "Monaco",
+    "isoCode2": "MC",
+    "isoCode3": "MCO",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/mc.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 143,
+    "countryName": "Mongolia",
+    "isoCode2": "MN",
+    "isoCode3": "MNG",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/mn.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 144,
+    "countryName": "Montenegro",
+    "isoCode2": "ME",
+    "isoCode3": "MNE",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/mon.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 145,
+    "countryName": "Montserrat",
+    "isoCode2": "MS",
+    "isoCode3": "MSR",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ms.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 146,
+    "countryName": "Morocco",
+    "isoCode2": "MA",
+    "isoCode3": "MAR",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ma.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 147,
+    "countryName": "Mozambique",
+    "isoCode2": "MZ",
+    "isoCode3": "MOZ",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/mz.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 148,
+    "countryName": "Myanmar",
+    "isoCode2": "MM",
+    "isoCode3": "MMR",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/mm.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 149,
+    "countryName": "Namibia",
+    "isoCode2": "NA",
+    "isoCode3": "NAM",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/na.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 150,
+    "countryName": "Nauru",
+    "isoCode2": "NR",
+    "isoCode3": "NRU",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/nr.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 151,
+    "countryName": "Nepal",
+    "isoCode2": "NP",
+    "isoCode3": "NPL",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/np.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 152,
+    "countryName": "Netherlands",
+    "isoCode2": "NL",
+    "isoCode3": "NLD",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/nl.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 153,
+    "countryName": "Netherlands Antilles",
+    "isoCode2": "AN",
+    "isoCode3": "ANT",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/an.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 154,
+    "countryName": "New Caledonia",
+    "isoCode2": "NC",
+    "isoCode3": "NCL",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/nc.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 155,
+    "countryName": "New Zealand",
+    "isoCode2": "NZ",
+    "isoCode3": "NZL",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/nz.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 156,
+    "countryName": "Nicaragua",
+    "isoCode2": "NI",
+    "isoCode3": "NIC",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ni.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 157,
+    "countryName": "Niger",
+    "isoCode2": "NE",
+    "isoCode3": "NER",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ne.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 158,
+    "countryName": "Nigeria",
+    "isoCode2": "NG",
+    "isoCode3": "NGA",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ng.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 159,
+    "countryName": "Niue",
+    "isoCode2": "NU",
+    "isoCode3": "NIU",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/nu.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 160,
+    "countryName": "Norfolk Island",
+    "isoCode2": "NF",
+    "isoCode3": "NFK",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/nf.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 161,
+    "countryName": "Northern Mariana Islands",
+    "isoCode2": "MP",
+    "isoCode3": "MNP",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/mp.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 162,
+    "countryName": "Norway",
+    "isoCode2": "NO",
+    "isoCode3": "NOR",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/no.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 163,
+    "countryName": "Oman",
+    "isoCode2": "OM",
+    "isoCode3": "OMN",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/om.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 164,
+    "countryName": "Pakistan",
+    "isoCode2": "PK",
+    "isoCode3": "PAK",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/pk.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 165,
+    "countryName": "Palau",
+    "isoCode2": "PW",
+    "isoCode3": "PLW",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/pw.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 166,
+    "countryName": "Panama",
+    "isoCode2": "PA",
+    "isoCode3": "PAN",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/pa.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 167,
+    "countryName": "Papua New Guinea",
+    "isoCode2": "PG",
+    "isoCode3": "PNG",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/pg.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 168,
+    "countryName": "Paraguay",
+    "isoCode2": "PY",
+    "isoCode3": "PRY",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/py.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 169,
+    "countryName": "Peru",
+    "isoCode2": "PE",
+    "isoCode3": "PER",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/pe.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 170,
+    "countryName": "Philippines",
+    "isoCode2": "PH",
+    "isoCode3": "PHL",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ph.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 171,
+    "countryName": "Pitcairn",
+    "isoCode2": "PN",
+    "isoCode3": "PCN",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/pn.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 172,
+    "countryName": "Poland",
+    "isoCode2": "PL",
+    "isoCode3": "POL",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/pl.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 173,
+    "countryName": "Portugal",
+    "isoCode2": "PT",
+    "isoCode3": "PRT",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/pt.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 174,
+    "countryName": "Puerto Rico",
+    "isoCode2": "PR",
+    "isoCode3": "PRI",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/pr.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 175,
+    "countryName": "Qatar",
+    "isoCode2": "QA",
+    "isoCode3": "QAT",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/qa.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 176,
+    "countryName": "Reunion",
+    "isoCode2": "RE",
+    "isoCode3": "REU",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/re.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 177,
+    "countryName": "Romania",
+    "isoCode2": "RO",
+    "isoCode3": "ROM",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ro.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 178,
+    "countryName": "Russian Federation",
+    "isoCode2": "RU",
+    "isoCode3": "RUS",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ru.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 179,
+    "countryName": "Rwanda",
+    "isoCode2": "RW",
+    "isoCode3": "RWA",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/rw.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 180,
+    "countryName": "Saint Kitts and Nevis",
+    "isoCode2": "KN",
+    "isoCode3": "KNA",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/kn.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 181,
+    "countryName": "Saint Lucia",
+    "isoCode2": "LC",
+    "isoCode3": "LCA",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/lc.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 182,
+    "countryName": "Saint Vincent and the Grenadines",
+    "isoCode2": "VC",
+    "isoCode3": "VCT",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/vc.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 183,
+    "countryName": "Samoa",
+    "isoCode2": "WS",
+    "isoCode3": "WSM",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ws.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 184,
+    "countryName": "San Marino",
+    "isoCode2": "SM",
+    "isoCode3": "SMR",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/sm.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 185,
+    "countryName": "Sao Tome and Principe",
+    "isoCode2": "ST",
+    "isoCode3": "STP",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/st.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 186,
+    "countryName": "Saudi Arabia",
+    "isoCode2": "SA",
+    "isoCode3": "SAU",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/sa.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 187,
+    "countryName": "Senegal",
+    "isoCode2": "SN",
+    "isoCode3": "SEN",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/sn.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 188,
+    "countryName": "Seychelles",
+    "isoCode2": "SC",
+    "isoCode3": "SYC",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/sc.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 189,
+    "countryName": "Sierra Leone",
+    "isoCode2": "SL",
+    "isoCode3": "SLE",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/sl.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 190,
+    "countryName": "Singapore",
+    "isoCode2": "SG",
+    "isoCode3": "SGP",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/sg.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 191,
+    "countryName": "Slovakia (Slovak Republic)",
+    "isoCode2": "SK",
+    "isoCode3": "SVK",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/sk.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 192,
+    "countryName": "Slovenia",
+    "isoCode2": "SI",
+    "isoCode3": "SVN",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/sl.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 193,
+    "countryName": "Solomon Islands",
+    "isoCode2": "SB",
+    "isoCode3": "SLB",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/sb.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 194,
+    "countryName": "Somalia",
+    "isoCode2": "SO",
+    "isoCode3": "SOM",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/so.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 195,
+    "countryName": "South Africa",
+    "isoCode2": "ZA",
+    "isoCode3": "ZAF",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/za.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 196,
+    "countryName": "South Georgia and the South Sandwich Islands",
+    "isoCode2": "GS",
+    "isoCode3": "SGS",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/gs.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 197,
+    "countryName": "South Sudan",
+    "isoCode2": "SS",
+    "isoCode3": "SSD",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/sudan.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 198,
+    "countryName": "Spain",
+    "isoCode2": "ES",
+    "isoCode3": "ESP",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/es.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 199,
+    "countryName": "Sri Lanka",
+    "isoCode2": "LK",
+    "isoCode3": "LKA",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/lk.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 200,
+    "countryName": "St. Helena",
+    "isoCode2": "SH",
+    "isoCode3": "SHN",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/sh.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 201,
+    "countryName": "St. Pierre and Miquelon",
+    "isoCode2": "PM",
+    "isoCode3": "SPM",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/pm.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 202,
+    "countryName": "Sudan",
+    "isoCode2": "SD",
+    "isoCode3": "SDN",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/sd.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 203,
+    "countryName": "Suriname",
+    "isoCode2": "SR",
+    "isoCode3": "SUR",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/sr.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 204,
+    "countryName": "Svalbard and Jan Mayen Islands",
+    "isoCode2": "SJ",
+    "isoCode3": "SJM",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/sj.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 205,
+    "countryName": "Swaziland",
+    "isoCode2": "SZ",
+    "isoCode3": "SWZ",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/sz.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 206,
+    "countryName": "Sweden",
+    "isoCode2": "SE",
+    "isoCode3": "SWE",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/sv.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 207,
+    "countryName": "Switzerland",
+    "isoCode2": "CH",
+    "isoCode3": "CHE",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ch.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 208,
+    "countryName": "Syrian Arab Republic",
+    "isoCode2": "SY",
+    "isoCode3": "SYR",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/sy.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 209,
+    "countryName": "Taiwan",
+    "isoCode2": "TW",
+    "isoCode3": "TWN",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/tw.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 210,
+    "countryName": "Tajikistan",
+    "isoCode2": "TJ",
+    "isoCode3": "TJK",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/tj.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 211,
+    "countryName": "Tanzania United Republic of",
+    "isoCode2": "TZ",
+    "isoCode3": "TZA",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/tz.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 212,
+    "countryName": "Thailand",
+    "isoCode2": "TH",
+    "isoCode3": "THA",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/th.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 213,
+    "countryName": "Togo",
+    "isoCode2": "TG",
+    "isoCode3": "TGO",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/tg.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 214,
+    "countryName": "Tokelau",
+    "isoCode2": "TK",
+    "isoCode3": "TKL",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/tk.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 215,
+    "countryName": "Tonga",
+    "isoCode2": "TO",
+    "isoCode3": "TON",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/to.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 216,
+    "countryName": "Trinidad and Tobago",
+    "isoCode2": "TT",
+    "isoCode3": "TTO",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/tt.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 217,
+    "countryName": "Tunisia",
+    "isoCode2": "TN",
+    "isoCode3": "TUN",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/tn.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 218,
+    "countryName": "Turkey",
+    "isoCode2": "TR",
+    "isoCode3": "TUR",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/tr.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 219,
+    "countryName": "Turkmenistan",
+    "isoCode2": "TM",
+    "isoCode3": "TKM",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/tm.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 220,
+    "countryName": "Turks and Caicos Islands",
+    "isoCode2": "TC",
+    "isoCode3": "TCA",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/tc.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 221,
+    "countryName": "Tuvalu",
+    "isoCode2": "TV",
+    "isoCode3": "TUV",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/tv.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 222,
+    "countryName": "Uganda",
+    "isoCode2": "UG",
+    "isoCode3": "UGA",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ug.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 223,
+    "countryName": "Ukraine",
+    "isoCode2": "UA",
+    "isoCode3": "UKR",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/uk.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 224,
+    "countryName": "United Arab Emirates",
+    "isoCode2": "AE",
+    "isoCode3": "ARE",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ae.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 225,
+    "countryName": "United Kingdom",
+    "isoCode2": "GB",
+    "isoCode3": "GBR",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/uk_.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 226,
+    "countryName": "United States",
+    "isoCode2": "US",
+    "isoCode3": "USA",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/us.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 227,
+    "countryName": "United States Minor Outlying Islands",
+    "isoCode2": "UM",
+    "isoCode3": "UMI",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/um.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 228,
+    "countryName": "Uruguay",
+    "isoCode2": "UY",
+    "isoCode3": "URY",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/uy.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 229,
+    "countryName": "Uzbekistan",
+    "isoCode2": "UZ",
+    "isoCode3": "UZB",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/uz.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 230,
+    "countryName": "Vanuatu",
+    "isoCode2": "VU",
+    "isoCode3": "VUT",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/vu.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 231,
+    "countryName": "Vatican City State (Holy See)",
+    "isoCode2": "VA",
+    "isoCode3": "VAT",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/va.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 232,
+    "countryName": "Venezuela",
+    "isoCode2": "VE",
+    "isoCode3": "VEN",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ve.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 233,
+    "countryName": "Vietnam",
+    "isoCode2": "VN",
+    "isoCode3": "VNM",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/vn.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 234,
+    "countryName": "Virgin Islands (British)",
+    "isoCode2": "VG",
+    "isoCode3": "VGB",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/vg.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 235,
+    "countryName": "Virgin Islands (U.S.)",
+    "isoCode2": "VI",
+    "isoCode3": "VIR",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/vi.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 236,
+    "countryName": "Wallis and Futuna Islands",
+    "isoCode2": "WF",
+    "isoCode3": "WLF",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/wf.alt.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 237,
+    "countryName": "Western Sahara",
+    "isoCode2": "EH",
+    "isoCode3": "ESH",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/eh.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 238,
+    "countryName": "Yemen",
+    "isoCode2": "YE",
+    "isoCode3": "YEM",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/ye.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 239,
+    "countryName": "Serbia",
+    "isoCode2": "RS",
+    "isoCode3": "SRB",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/yu.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 240,
+    "countryName": "Zaire",
+    "isoCode2": "ZR",
+    "isoCode3": "ZAR",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/zr.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 241,
+    "countryName": "Zambia",
+    "isoCode2": "ZM",
+    "isoCode3": "ZMB",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/zm.png",
+    "isEnable": 1
+    },
+    {
+    "countryId": 242,
+    "countryName": "Zimbabwe",
+    "isoCode2": "ZW",
+    "isoCode3": "ZWE",
+    "countryFlg": "http://localhost/wp-content/plugins/Tevolution-LocationManager/images/flags/zw.png",
+    "isEnable": 1
+    }
+    ]
