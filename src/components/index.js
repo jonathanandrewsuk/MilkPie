@@ -3,8 +3,8 @@ import TestCard from './TestCard'
 import TestButton from './TestButton'
 import TestHello from './TestHello'
 import ResponsiveLayout from './ResponsiveLayout'
-import TopNav from './TopNav'
 import ButtonExampleAnimated from './ButtonExampleAnimated'
+import NavBar from './NavBar'
 
 
 export {
@@ -12,7 +12,7 @@ export {
   TestCard,
   TestButton,
   ResponsiveLayout,
-  TopNav,
   TestHello,
-  ButtonExampleAnimated
+  ButtonExampleAnimated,
+  NavBar
 }

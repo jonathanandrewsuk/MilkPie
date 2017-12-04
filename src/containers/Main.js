@@ -4,7 +4,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router'
 
-import { TestHello } from '../components'
+import { TestHello, Boilerplate } from '../components'
 
 class Main extends Component {
   render() {
@@ -13,6 +13,7 @@ class Main extends Component {
       <main style={{paddingTop: "70px"}}>
         <Switch>
           <Route exact path='/' render={(props) => (<TestHello {...this.props}/>)}/>
+          <Route exact path='/users' render={(props) => (<Boilerplate {...this.props}/>)}/>
         </Switch>
       </main>
 
