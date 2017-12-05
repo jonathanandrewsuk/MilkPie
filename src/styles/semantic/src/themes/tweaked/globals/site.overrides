@@ -1,0 +1,18 @@
+/*******************************
+        Global Overrides
+*******************************/
+
+body {
+  background: #f5f5f5;
+}
+
+
+.MyFeed {
+  background: white;
+  padding: 25px 25px 25px 25px;
+}
+
+.MainContainer {
+  paddingTop: 90px;
+  paddingBottom: 30px;
+}

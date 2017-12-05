@@ -14,7 +14,7 @@ const rightItems = [
 
 
 const App = () => (
-    <NavBar leftItems={leftItems} rightItems={rightItems} >
+    <NavBar leftItems={leftItems} rightItems={rightItems}>
         <Main/>
     </NavBar>
 );
