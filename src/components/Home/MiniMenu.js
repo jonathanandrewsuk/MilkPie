@@ -10,7 +10,7 @@ export default class MenuExampleSizeVerticalMini extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu size='small' vertical>
+      <Menu size='small' vertical fluid="true">
         <Menu.Item name='inbox' active={activeItem === 'inbox'} onClick={this.handleItemClick}>
           <Label color='teal'>1</Label>
           Inbox

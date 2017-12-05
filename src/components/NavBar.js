@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import { render } from "react-dom";
 import {
   Container,
@@ -26,7 +26,7 @@ const NavBarMobile = ({
       animation="overlay"
       icon="labeled"
       inverted
-      items={leftItems.map(item => <NavLink className="a" to={item.url}><Menu.Item style={{height: "60px"}} as="a" key={item.key}><Icon name={item.icon}/>{item.content}</Menu.Item></NavLink>)}
+      items={leftItems.map(item => <NavLink className="a" to={item.url}><Menu.Item style={{height: "70px"}} as="a" key={item.key}><Icon name={item.icon}/>{item.content}</Menu.Item></NavLink>)}
       vertical
       visible={visible}
       width="thin"
@@ -42,7 +42,8 @@ const NavBarMobile = ({
           <Icon name="sidebar" />
         </Menu.Item>
         <Menu.Menu position="right">
-        {rightItems.map(item => <NavLink className="a" to={item.url}><Menu.Item style={{height: "60px"}} as="a" key={item.key}>{item.content}</Menu.Item></NavLink>)}
+        {rightItems.map(item => <Link onClick={item.content.handleOpen}><Menu.Item style={{height: "60px"}} as="a" key={item.key}>{item.content}</Menu.Item></Link>)}
+        {/* {rightItems.map(item => <NavLink className="a" to={item.url}><Menu.Item style={{height: "60px"}} as="a" key={item.key}>{item.content}</Menu.Item></NavLink>)} */}
         </Menu.Menu>
       </Menu>
 

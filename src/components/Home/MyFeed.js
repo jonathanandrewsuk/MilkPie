@@ -33,6 +33,6 @@ const events = [{
   ],
 }]
 
-const MyFeed = () => <Feed className="MyFeed" events={events} />
+const MyFeed = () => <Feed id="largeFeed" events={events} />
 
 export default MyFeed

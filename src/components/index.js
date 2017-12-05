@@ -10,6 +10,8 @@ import FeedSummary from './Home/FeedSummary'
 import MiniMenu from './Home/MiniMenu'
 import MyCard from './Common/MyCard'
 import MyFeed from './Home/MyFeed'
+import TestForm from './TestForm'
+import RegisterModal from './RegisterModal'
 
 
 export {
@@ -24,5 +26,7 @@ export {
   FeedSummary,
   MiniMenu,
   MyCard,
-  MyFeed
+  MyFeed,
+  TestForm,
+  RegisterModal
 }
