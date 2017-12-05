@@ -9,8 +9,8 @@ const leftItems = [
   { as: "a", content: "Form", key: "form", icon: "write", url: "form" }
 ];
 const rightItems = [
-  { as: "a", content: "Login", key: "login", url: "#" },
-  { as: "a", content: <RegisterModal/>, key: "register", url: "#"  }
+  { as: "a", content: "Login", key: "login", url: "/" },
+  { as: "a", content: "Register", key: "register", url: "/"  }
 ];
 
 
