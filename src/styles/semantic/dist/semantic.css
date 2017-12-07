@@ -27361,8 +27361,8 @@ a.ui.card:hover,
 
 #largeFeed {
   background: #fff;
-  -webkit-box-shadow: 0px 0px 3px 1px rgba(2, 2, 2, 0.15);
-  box-shadow: 0px 0px 3px 1px rgba(2, 2, 2, 0.15);
+  -webkit-box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
   padding: 25px 25px 25px 25px;
   border-radius: 3px;
 }

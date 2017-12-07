@@ -27,7 +27,7 @@ const NavBarMobile = ({
       animation="overlay"
       icon="labeled"
       inverted
-      items={leftItems.map(item => <NavLink to={item.url}><Menu.Item id="mobileNavItem" style={{height: "70px"}} as="a" key={item.key}><Icon name={item.icon}/>{item.content}</Menu.Item></NavLink>)}
+      items={leftItems.map(function(item){return (item.url != "/") ? <NavLink to={item.url}><Menu.Item id="mobileNavItem" style={{height: "70px"}} as="a" key={item.key}><Icon name={item.icon}/>{item.content}</Menu.Item></NavLink> : <NavLink to={item.url}><Menu.Item id="mobileNavItem" style={{height: "60px"}} as="a" key={item.key}> <div style={{padding: "auto"}}> <Image style={{margin: "auto", marginBottom: "3px"}} size="mini" src={require('../assets/images/logo.png')} /></div></Menu.Item></NavLink>})}
       vertical
       visible={visible}
       width="thin"
@@ -58,13 +58,12 @@ const NavBarDesktop = ({ leftItems, rightItems }) => (
   <Menu fixed="top" inverted>
     <Container>
       <Menu.Item>
-        <NavLink className="a" to="/"><Image size="mini" src="https://react.semantic-ui.com/logo.png" /></NavLink>
+        <NavLink className="a" to="/"><Image size="mini" src={require('../assets/images/logo.png')} /></NavLink>
       </Menu.Item>
       {leftItems.map(function(item){
         // On Desktop Nav the logo is the home "/" link, so I don't render it
         return (item.url != "/") ? <NavLink className="a" to={item.url}><Menu.Item style={{height: "60px"}} as="a" key={item.key}>{item.content}</Menu.Item></NavLink> : null
         })}
-
       <Menu.Menu position="right">
         <Menu.Item id="searchBarNav">
           <SearchBarNav/>
