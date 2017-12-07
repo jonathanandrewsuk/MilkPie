@@ -6,7 +6,7 @@ import { NavBar } from '../components'
 // Menu Items
 const leftItems = [
   { as: "a", content: "Home", key: "home", icon: "home", url: "/"},
-  { as: "a", content: "Form", key: "form", icon: "write", url: "form" }
+  { as: "a", content: "Thing", key: "form", icon: "write", url: "thing" }
 ];
 const rightItems = [
   { as: "a", content: "Login", key: "login", url: "/" },
