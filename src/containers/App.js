@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Main } from '../containers'
-import { NavBar, RegisterModal } from '../components'
+import { NavBar } from '../components'
 
 
 // Menu Items
@@ -10,7 +10,7 @@ const leftItems = [
 ];
 const rightItems = [
   { as: "a", content: "Login", key: "login", url: "/" },
-  { as: "a", content: "Register", key: "register", url: "/"  }
+  { as: "a", content: "Register", key: "register", url: "register"  }
 ];
 
 

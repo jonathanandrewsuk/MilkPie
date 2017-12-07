@@ -11,7 +11,7 @@ export default class RegisterModal extends Component {
   render() {
     return (
       <Modal
-        trigger={<p onClick={this.handleOpen}>Register</p>}
+        trigger={<div onClick={this.handleOpen} id="registerModalButton"><p>Register</p></div>}
         open={this.state.modalOpen}
         onClose={this.handleClose}
         basic

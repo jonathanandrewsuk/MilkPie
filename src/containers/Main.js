@@ -13,7 +13,7 @@ class Main extends Component {
       <main style={{paddingTop: "90px", paddingBottom: "30px"}}>
         <Switch>
           <Route exact path='/' render={(props) => (<Home {...this.props}/>)}/>
-          <Route exact path='/form' render={(props) => (<TestForm {...this.props}/>)}/>
+          <Route exact path='/register' render={(props) => (<TestForm {...this.props}/>)}/>
         </Switch>
       </main>
 

@@ -11,6 +11,7 @@ import {
 } from "semantic-ui-react";
 
 import { Main } from '../containers'
+import { SearchBarNav } from '../components'
 
 const NavBarMobile = ({
   children,
@@ -42,6 +43,9 @@ const NavBarMobile = ({
           <Icon name="sidebar" />
         </Menu.Item>
         <Menu.Menu position="right">
+          <Menu.Item id="searchBarNav">
+            <SearchBarNav/>
+          </Menu.Item>
         {rightItems.map(item => <NavLink className="a" to={item.url}><Menu.Item style={{height: "60px"}} as="a" key={item.key}>{item.content}</Menu.Item></NavLink>)}
         </Menu.Menu>
       </Menu>
@@ -54,10 +58,17 @@ const NavBarDesktop = ({ leftItems, rightItems }) => (
   <Menu fixed="top" inverted>
     <Container>
       <Menu.Item>
-        <Image size="mini" src="https://react.semantic-ui.com/logo.png" />
+        <NavLink className="a" to="/"><Image size="mini" src="https://react.semantic-ui.com/logo.png" /></NavLink>
       </Menu.Item>
-      {leftItems.map(item =><NavLink className="a" to={item.url}><Menu.Item style={{height: "60px"}} as="a" key={item.key}>{item.content}</Menu.Item></NavLink> )}
+      {leftItems.map(function(item){
+        // On Desktop Nav the logo is the home "/" link, so I don't render it
+        return (item.url != "/") ? <NavLink className="a" to={item.url}><Menu.Item style={{height: "60px"}} as="a" key={item.key}>{item.content}</Menu.Item></NavLink> : null
+        })}
+
       <Menu.Menu position="right">
+        <Menu.Item id="searchBarNav">
+          <SearchBarNav/>
+        </Menu.Item>
         {rightItems.map(item => <NavLink className="a" to={item.url}><Menu.Item style={{height: "60px"}} as="a" key={item.key}>{item.content}</Menu.Item></NavLink>)}
       </Menu.Menu>
     </Container>

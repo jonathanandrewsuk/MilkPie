@@ -1,4 +1,3 @@
-import Boilerplate from './Boilerplate'
 import TestCard from './TestCard'
 import TestButton from './TestButton'
 import TestHello from './TestHello'
@@ -12,10 +11,10 @@ import MyCard from './Common/MyCard'
 import MyFeed from './Home/MyFeed'
 import TestForm from './TestForm'
 import RegisterModal from './RegisterModal'
+import SearchBarNav from './SearchBarNav'
 
 
 export {
-  Boilerplate,
   TestCard,
   TestButton,
   ResponsiveLayout,
@@ -28,5 +27,6 @@ export {
   MyCard,
   MyFeed,
   TestForm,
-  RegisterModal
+  RegisterModal,
+  SearchBarNav
 }
