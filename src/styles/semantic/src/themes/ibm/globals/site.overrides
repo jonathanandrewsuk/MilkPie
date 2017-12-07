@@ -1,0 +1,12 @@
+/*******************************
+        Global Overrides
+*******************************/
+
+.blueCore {
+  background-color: #4178BE !important;
+}
+
+
+.blue10 {
+  background-color: #C0E6FF !important;
+}
