@@ -4,7 +4,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router'
 
-import { Home, TestForm } from '../components'
+import { Social, TestForm, ThemingLayout } from '../components'
 
 class Main extends Component {
   render() {
@@ -12,7 +12,8 @@ class Main extends Component {
 
       <main style={{paddingTop: "90px", paddingBottom: "30px"}}>
         <Switch>
-          <Route exact path='/' render={(props) => (<Home {...this.props}/>)}/>
+          <Route exact path='/' render={(props) => (<ThemingLayout {...this.props}/>)}/>
+          <Route exact path='/social' render={(props) => (<Social {...this.props}/>)}/>
           <Route exact path='/register' render={(props) => (<TestForm {...this.props}/>)}/>
         </Switch>
       </main>

@@ -28,7 +28,7 @@ class TestForm extends Component {
         </Form.Group>
         <Form.TextArea label='About' placeholder='Tell us more about you...' />
         <Form.Checkbox label='I agree to the Terms and Conditions' />
-        <Form.Button color="blueCore">Submit</Form.Button>
+        <Form.Button color="blueCore_50">Submit</Form.Button>
       </Form>
     )
   }

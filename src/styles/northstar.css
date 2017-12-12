@@ -2,8 +2,8 @@
 
 /*!
  * Name: ibm.com v18 production file
- * Release: 105.0.0
- * Built: 2017-11-30 10:24:04 AM EST
+ * Release: 106.0.0
+ * Built: 2017-12-07 10:51:22 PM EST
  * Owner: Corporate Webmaster (NUS_N_NIWWW)
  * Copyright (c) 2017 IBM Corporation
  * Description: Official file for production use
@@ -396,17 +396,17 @@ textarea.ibm-styled-input {
 */
 
 @font-face {
-  font-family: "icons-ibm-v11";
-  src: url("https://1.www.s81c.com/common/fonts/icons-ibm-v11.eot");
-  src: url("https://1.www.s81c.com/common/fonts/icons-ibm-v11.eot?#iefix") format("embedded-opentype"), url("https://1.www.s81c.com/common/fonts/icons-ibm-v11.woff") format("woff"), url("https://1.www.s81c.com/common/fonts/icons-ibm-v11.ttf") format("truetype"), url("https://1.www.s81c.com/common/fonts/icons-ibm-v11.svg#icons-ibm-v11") format("svg");
+  font-family: "icons-ibm-v12";
+  src: url("https://1.www.s81c.com/common/fonts/icons-ibm-v12.eot");
+  src: url("https://1.www.s81c.com/common/fonts/icons-ibm-v12.woff") format("woff"), url("https://1.www.s81c.com/common/fonts/icons-ibm-v12.ttf") format("truetype"), url("https://1.www.s81c.com/common/fonts/icons-ibm-v12.svg#icons-ibm-v12") format("svg");
   font-weight: normal;
   font-style: normal
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: "icons-ibm-v11";
-    src: url("https://1.www.s81c.com/common/fonts/icons-ibm-v11.svg#icons-ibm-v11") format("svg")
+    font-family: "icons-ibm-v12";
+    src: url("https://1.www.s81c.com/common/fonts/icons-ibm-v12.svg#icons-ibm-v12") format("svg")
   }
 }
 
@@ -1336,32 +1336,24 @@ p.ibm-caption {
   }
 }
 
-.ibm-add-link::before {
-  content: "\f100"
+.ibm-add-link::before, .ibm-new-link::before, .ibm-maximize-link::before, .ibm-expand-link::before, .ibm-show-hide>h2 a::before, ul.ibm-twisty>li a.ibm-twisty-trigger::before {
+  content: "\f18c"
 }
 
 .ibm-admin-link::before {
-  content: "\f101"
+  content: "\f18d"
 }
 
 .ibm-alert-link::before {
-  content: "\f102"
+  content: "\f18e"
 }
 
 .ibm-anchor-down-link::before {
-  content: "\f103"
+  content: "\f18f"
 }
 
 .ibm-anchor-up-link::before {
-  content: "\f104"
-}
-
-.ibm-arrow-forward-link::before, .ibm-search-typeahead-container ul li.ibm-active:after {
-  content: "\f105"
-}
-
-.ibm-arrow-forward-bold-link::before {
-  content: "\f106"
+  content: "\f190"
 }
 
 .ibm-attachment-link::before {
@@ -1369,235 +1361,211 @@ p.ibm-caption {
 }
 
 .ibm-audio-link::before {
-  content: "\f108"
+  content: "\f192"
 }
 
 .ibm-back-link::before {
-  content: "\f109"
+  content: "\f1fc"
 }
 
 .ibm-bee-link::before {
-  content: "\f10a"
+  content: "\f193"
 }
 
 .ibm-blog-link::before, .ibm-blog-encircled-link::before, .ibm-blog-mono-link::before {
-  content: "\f10b"
+  content: "\f194"
 }
 
 .ibm-bookmark-link::before {
-  content: "\f10c"
+  content: "\f195"
+}
+
+.ibm-bottom-link::before {
+  content: "\f196"
 }
 
 .ibm-calculator-link::before {
-  content: "\f10d"
+  content: "\f197"
 }
 
 .ibm-calendar-link::before {
-  content: "\f10e"
+  content: "\f198"
 }
 
-.ibm-cart-link::before {
-  content: "\f10f"
+.ibm-cart-link::before, .ibm-marketplace-link::before {
+  content: "\f199"
 }
 
 .ibm-caution-link::before {
-  content: "\f110"
+  content: "\f19a"
 }
 
 .ibm-chat-link::before {
-  content: "\f111"
+  content: "\f19b"
 }
 
 .ibm-chevron-down-link::before, .ibm-chevron-down-link.ibm-icon-after::after, .select2-container--default .select2-selection--single .select2-selection__arrow b:before, .ibm-sitenav-menu-list>ul>li.ibm-haschildlist>button::before, .ibm-sitenav-menu-list>ul>li.ibm-haschildlist>span::before, .ibm-sitenav-menu-list>ul>li.ibm-haschildlist>a::before {
-  content: "\f112"
+  content: "\f19c"
 }
 
-.ibm-chevron-left-bold-link::before {
-  content: "\f113"
+.ibm-chevron-left-link::before, .ibm-chevron-left-bold-link::before, .ibm-chevron-left-light-link::before, .ibm-chevron-left-regular-link::before {
+  content: "\f204"
 }
 
-.ibm-chevron-left-regular-link::before, .ibm-chevron-left-light-link::before {
-  content: "\f114"
-}
-
-.ibm-chevron-right-bold-link::before, [id='ibm-primary-links'] .ibm-show-hide h2 a::before, [id='ibm-primary-links'] .ibm-show-hide h2 a.ibm-show-active::before {
-  content: "\f115"
-}
-
-.ibm-chevron-right-regular-link::before, .ibm-chevron-right-regular-link.ibm-icon-after::after, .ibm-chevron-right-light-link::before, #ibm-navigation-trail li::after, .ibm-step-indicator .ibm-tabs li::after {
-  content: "\f116"
+.ibm-chevron-right-link::before, .ibm-chevron-right-bold-link::before, .ibm-chevron-right-light-link::before, .ibm-chevron-right-regular-link::before, .ibm-chevron-right-regular-link.ibm-icon-after::after, [id='ibm-primary-links'] .ibm-show-hide h2 a::before, [id='ibm-primary-links'] .ibm-show-hide h2 a.ibm-show-active::before, #ibm-navigation-trail li::after, .ibm-step-indicator .ibm-tabs li::after {
+  content: "\f205"
 }
 
 .ibm-chevron-up-link::before, .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b:before {
-  content: "\f117"
+  content: "\f19f"
 }
 
 .ibm-clock-link::before {
-  content: "\f118"
+  content: "\f1a0"
 }
 
-.ibm-close-link::before {
-  content: "\f119"
+.ibm-close-link::before, .ibm-delete-link::before {
+  content: "\f1a1"
 }
 
 .ibm-cloud-link::before {
-  content: "\f11a"
+  content: "\f1fd"
 }
 
 .ibm-collaborate-link::before {
-  content: "\f11b"
-}
-
-.ibm-collapse-link::before, .ibm-minimize-link::before, .ibm-show-hide>h2 a.ibm-show-active::before, ul.ibm-twisty>li.ibm-active>a.ibm-twisty-trigger::before {
-  content: "\f11c"
+  content: "\f1a2"
 }
 
 .ibm-confirm-link::before {
-  content: "\f11d"
+  content: "\f1a3"
 }
 
 .ibm-copy-link::before {
-  content: "\f11e"
-}
-
-.ibm-delete-link::before {
-  content: "\f11f"
+  content: "\f1fe"
 }
 
 .ibm-delicious-link::before, .ibm-delicious-encircled-link::before, .ibm-delicious-mono-link::before {
-  content: "\f120"
+  content: "\f1a4"
 }
 
 .ibm-desktop-link::before {
-  content: "\f121"
+  content: "\f1a5"
 }
 
 .ibm-digg-link::before, .ibm-digg-encircled-link::before, .ibm-digg-mono-link::before {
-  content: "\f122"
+  content: "\f1a6"
 }
 
 .ibm-document-link::before {
-  content: "\f123"
+  content: "\f1a7"
 }
 
 .ibm-download-link::before {
   content: "\f124"
 }
 
+.ibm-dropdown-link::before {
+  content: "\f1a8"
+}
+
 .ibm-edit-link::before {
-  content: "\f125"
+  content: "\f1a9"
 }
 
 .ibm-ellipsis-link::before {
-  content: "\f126"
+  content: "\f203"
 }
 
 .ibm-email-link::before, .ibm-email-encircled-link::before, .ibm-email-mono-link::before {
-  content: "\f127"
+  content: "\f1aa"
 }
 
 .ibm-event-link::before {
-  content: "\f128"
-}
-
-.ibm-expand-link::before, .ibm-maximize-link::before, .ibm-show-hide>h2 a::before, ul.ibm-twisty>li a.ibm-twisty-trigger::before {
-  content: "\f129"
+  content: "\f1ab"
 }
 
 .ibm-external-link::before, .ibm-external-link.ibm-icon-after::after {
-  content: "\f12a"
+  content: "\f1ac"
 }
 
 .ibm-facebook-link::before, .ibm-facebook-encircled-link::before, .ibm-facebook-mono-link::before {
-  content: "\f12b"
+  content: "\f1ad"
 }
 
 .ibm-filter-link::before {
-  content: "\f12c"
+  content: "\f1ae"
 }
 
 .ibm-firstpage-link::before {
-  content: "\f12d"
+  content: "\f1af"
 }
 
 .ibm-flickr-link::before, .ibm-flickr-encircled-link::before, .ibm-flickr-mono-link::before {
-  content: "\f12e"
+  content: "\f1b0"
 }
 
 .ibm-folder-link::before {
-  content: "\f12f"
+  content: "\f1b1"
 }
 
 .ibm-forum-link::before {
-  content: "\f130"
+  content: "\f1b2"
 }
 
-.ibm-baidu-encircled-link::before, .ibm-baidu-link::before, .ibm-hatena-blog-encircled-link::before, .ibm-hatena-blog-link::before, .ibm-hatena-encircled-link::before, .ibm-hatena-link::before, .ibm-kaixin-encircled-link::before, .ibm-kaixin-link::before, .ibm-livedoor-encircled-link::before, .ibm-livedoor-link::before, .ibm-renren-encircled-link::before, .ibm-renren-link::before, .ibm-weibo-encircled-link::before, .ibm-weibo-link::before, .ibm-add1-link::before, .ibm-anchor-down-em-link::before, .ibm-back-em-link::before, .ibm-blip-encircled-link::before, .ibm-blip-link::before, .ibm-callaction-link::before, .ibm-callme-link::before, .ibm-cancel-link::before, .ibm-cautionlarge-link::before, .ibm-check-link::before, .ibm-checklarge-link::before, .ibm-chevron-link::before, .ibm-community::before, .ibm-community-link::before, .ibm-contrast-link::before, .ibm-demo-link::before, .ibm-demoplay-link::before, .ibm-dogear-link::before, .ibm-error-link::before, .ibm-fontsize-link::before, .ibm-forward-em-link::before, .ibm-forward-pg-link::before, .ibm-friendfeed-link::before, .ibm-fullstar-link::before, .ibm-generic-link::before, .ibm-halfstar-link::before, .ibm-incorrect-link::before, .ibm-kaixn-link::before, .ibm-nostar-link::before, .ibm-question-link::before, .ibm-recommend-link::before, .ibm-signin-link::before, .ibm-symp-doc::before, .ibm-symp-presentation::before, .ibm-symp-spreadsheet::before, .ibm-upward-link::before, .ibm-usergroup::before, .ibm-usergroup-link::before, .ibm-vaideo-link::before, .ibm-wireless-link::before, .ibm-yahoojapan-link::before, .ibm-forward-link::before {
-  content: "\f131"
+.ibm-forward-link::before, .ibm-baidu-encircled-link::before, .ibm-baidu-link::before, .ibm-hatena-blog-encircled-link::before, .ibm-hatena-blog-link::before, .ibm-hatena-encircled-link::before, .ibm-hatena-link::before, .ibm-kaixin-encircled-link::before, .ibm-kaixin-link::before, .ibm-livedoor-encircled-link::before, .ibm-livedoor-link::before, .ibm-renren-encircled-link::before, .ibm-renren-link::before, .ibm-weibo-encircled-link::before, .ibm-weibo-link::before, .ibm-add1-link::before, .ibm-anchor-down-em-link::before, .ibm-back-em-link::before, .ibm-blip-encircled-link::before, .ibm-blip-link::before, .ibm-callaction-link::before, .ibm-callme-link::before, .ibm-cancel-link::before, .ibm-cautionlarge-link::before, .ibm-check-link::before, .ibm-checklarge-link::before, .ibm-chevron-link::before, .ibm-community::before, .ibm-community-link::before, .ibm-contrast-link::before, .ibm-demo-link::before, .ibm-demoplay-link::before, .ibm-dogear-link::before, .ibm-fontsize-link::before, .ibm-forward-em-link::before, .ibm-forward-pg-link::before, .ibm-friendfeed-link::before, .ibm-fullstar-link::before, .ibm-generic-link::before, .ibm-halfstar-link::before, .ibm-incorrect-link::before, .ibm-kaixn-link::before, .ibm-nostar-link::before, .ibm-question-link::before, .ibm-recommend-link::before, .ibm-signin-link::before, .ibm-symp-doc::before, .ibm-symp-presentation::before, .ibm-symp-spreadsheet::before, .ibm-upward-link::before, .ibm-usergroup::before, .ibm-usergroup-link::before, .ibm-vaideo-link::before, .ibm-wireless-link::before, .ibm-yahoojapan-link::before, .ibm-arrow-forward-link::before, .ibm-arrow-forward-bold-link::before, .ibm-home-link::before, .ibm-forward-link.ibm-icon-after::after, .ibm-search-typeahead-container ul li.ibm-active:after {
+  content: "\f1b3"
 }
 
 .ibm-github-link::before {
-  content: "\f132"
+  content: "\f1b4"
 }
 
 .ibm-googleplus-link::before, .ibm-googleplus-encircled-link::before, .ibm-googleplus-mono-link::before {
-  content: "\f133"
+  content: "\f1b5"
 }
 
-.ibm-help-link::before {
-  content: "\f134"
-}
-
-.ibm-help-alt-link::before {
-  content: "\f135"
-}
-
-.ibm-home-link::before {
-  content: "\f136"
+.ibm-help-link::before, .ibm-help-alt-link::before {
+  content: "\f1b6"
 }
 
 .ibm-ibmlogo-link::before, #ibm-home a:before {
-  content: "\f137"
+  content: "\f1b7"
 }
 
 .ibm-information-link::before {
-  content: "\f138"
+  content: "\f1b8"
 }
 
 .ibm-instagram-link::before, .ibm-instagram-encircled-link::before, .ibm-instagram-mono-link::before {
-  content: "\f139"
+  content: "\f1b9"
 }
 
 .ibm-lastpage-link::before {
-  content: "\f13a"
+  content: "\f1ba"
 }
 
 .ibm-like-link::before {
-  content: "\f13b"
+  content: "\f1bb"
 }
 
 .ibm-link-link::before {
-  content: "\f13c"
+  content: "\f1bc"
 }
 
 .ibm-linkedin-link::before, .ibm-linkedin-encircled-link::before, .ibm-linkedin-mono-link::before {
-  content: "\f13d"
+  content: "\f1bd"
 }
 
 .ibm-list-link::before {
-  content: "\f13e"
+  content: "\f1be"
 }
 
 .ibm-livestream-link::before, .ibm-livestream-encircled-link::before, .ibm-livestream-mono-link::before {
-  content: "\f13f"
+  content: "\f1bf"
 }
 
 .ibm-location-link::before {
-  content: "\f140"
-}
-
-.ibm-marketplace-link::before {
-  content: "\f141"
+  content: "\f1c0"
 }
 
 .ibm-menu-link::before {
@@ -1605,115 +1573,107 @@ p.ibm-caption {
 }
 
 .ibm-mobile-link::before {
-  content: "\f143"
-}
-
-.ibm-new-link::before {
-  content: "\f144"
+  content: "\f1c1"
 }
 
 .ibm-next-link::before, .ibm-next-link.ibm-icon-after::after {
-  content: "\f145"
+  content: "\f1c3"
 }
 
 .ibm-non-secure-link::before {
-  content: "\f146"
+  content: "\f1c4"
 }
 
 .ibm-password-link::before {
-  content: "\f147"
+  content: "\f1c5"
 }
 
 .ibm-pause-link::before {
-  content: "\f148"
+  content: "\f1c6"
 }
 
 .ibm-payment-link::before {
-  content: "\f149"
+  content: "\f1c7"
 }
 
 .ibm-pdf-link::before {
-  content: "\f14a"
+  content: "\f1c8"
 }
 
 .ibm-person-link::before {
-  content: "\f14b"
+  content: "\f1c9"
 }
 
 .ibm-phone-link::before {
-  content: "\f14c"
+  content: "\f200"
 }
 
 .ibm-picture-link::before {
-  content: "\f14d"
+  content: "\f1ca"
 }
 
 .ibm-pinterest-link::before, .ibm-pinterest-encircled-link::before, .ibm-pinterest-mono-link::before {
-  content: "\f14e"
+  content: "\f1cb"
 }
 
 .ibm-play-link::before {
-  content: "\f14f"
+  content: "\f1cc"
 }
 
 .ibm-popup-link::before {
-  content: "\f150"
+  content: "\f1cd"
 }
 
 .ibm-previous-link::before {
-  content: "\f151"
+  content: "\f1ce"
 }
 
 .ibm-print-link::before {
-  content: "\f152"
-}
-
-.ibm-profile-link::before {
-  content: "\f153"
+  content: "\f1cf"
 }
 
 .ibm-quora-link::before, .ibm-quora-mono-link::before {
-  content: "\f154"
+  content: "\f1d1"
 }
 
 .ibm-recommended-link::before {
-  content: "\f155"
+  content: "\f1d2"
 }
 
 .ibm-refresh-link::before {
-  content: "\f156"
+  content: "\f1d3"
 }
 
 .ibm-relationship-link::before {
-  content: "\f157"
+  content: "\f1d4"
 }
 
-.ibm-remove-link::before {
-  content: "\f158"
+.ibm-remove-link::before, .ibm-minimize-link::before, .ibm-collapse-link::before, .ibm-show-hide>h2 a.ibm-show-active::before, ul.ibm-twisty>li.ibm-active>a.ibm-twisty-trigger::before {
+  content: "\f1d5"
 }
 
 .ibm-renew-link::before {
-  content: "\f189"
+  content: "\f1d6"
 }
 
 .ibm-requestquote-link::before {
-  content: "\f15a"
+  content: "\f1d7"
 }
 
 .ibm-reset-link::before {
-  content: "\f15b"
+  content: "\f1d8"
 }
 
 .ibm-role-link::before {
-  content: "\f15c"
+  content: "\f1d9"
 }
 
 .ibm-rss-link::before {
-  content: "\f15d"
+  content: "\f201"
 }
 
 .ibm-save-link::before {
-  content: "\f15e"
+  content: "\f1da"
 }
 
 .ibm-search-link::before {
@@ -1721,139 +1681,147 @@ p.ibm-caption {
 }
 
 .ibm-secure-link::before {
-  content: "\f160"
+  content: "\f1db"
 }
 
 .ibm-setting-link::before {
-  content: "\f161"
+  content: "\f1dc"
 }
 
 .ibm-share-link::before, .ibm-share-encircled-link::before, .ibm-share-mono-link::before {
-  content: "\f162"
+  content: "\f1dd"
 }
 
 .ibm-skype-link::before, .ibm-skype-encircled-link::before, .ibm-skype-mono-link::before {
-  content: "\f163"
+  content: "\f1de"
 }
 
 .ibm-slack-link::before, .ibm-slack-mono-link::before {
-  content: "\f164"
+  content: "\f1df"
 }
 
 .ibm-snapchat-link::before, .ibm-snapchat-encircled-link::before, .ibm-snapchat-mono-link::before {
-  content: "\f165"
+  content: "\f1e0"
 }
 
-.ibm-sort-link::before, .ibm-nav-dropdown-link::before {
-  content: "\f166"
+.ibm-sort-link::before {
+  content: "\f1e1"
 }
 
 .ibm-sort-down-link::before, .ibm-sort-down-link.ibm-icon-after::after {
-  content: "\f167"
+  content: "\f1e2"
 }
 
 .ibm-sort-up-link::before {
-  content: "\f168"
+  content: "\f1e3"
 }
 
 .ibm-star-full-link::before {
-  content: "\f169"
+  content: "\f1e4"
 }
 
 .ibm-star-half-link::before {
-  content: "\f16a"
+  content: "\f1e5"
 }
 
 .ibm-star-none-link::before {
-  content: "\f16b"
+  content: "\f1e6"
 }
 
 .ibm-stop-link::before {
-  content: "\f16c"
+  content: "\f1e7"
 }
 
 .ibm-stumbleupon-link::before, .ibm-stumbleupon-encircled-link::before, .ibm-stumbleupon-mono-link::before {
-  content: "\f16d"
+  content: "\f1e8"
 }
 
 .ibm-tag-link::before {
-  content: "\f16e"
+  content: "\f1e9"
 }
 
 .ibm-task-link::before {
-  content: "\f16f"
+  content: "\f1ea"
 }
 
 .ibm-ticket-link::before {
-  content: "\f170"
+  content: "\f1eb"
 }
 
 .ibm-tile-link::before {
-  content: "\f171"
+  content: "\f1ec"
 }
 
 .ibm-toc-link::before {
-  content: "\f172"
+  content: "\f202"
 }
 
 .ibm-tools-link::before {
-  content: "\f173"
+  content: "\f1ed"
 }
 
 .ibm-top-link::before {
-  content: "\f174"
+  content: "\f1ee"
 }
 
 .ibm-tumblr-link::before, .ibm-tumblr-encircled-link::before, .ibm-tumblr-mono-link::before {
-  content: "\f175"
+  content: "\f1ef"
 }
 
 .ibm-twitter-link::before, .ibm-twitter-encircled-link::before, .ibm-twitter-mono-link::before {
-  content: "\f176"
+  content: "\f1f0"
 }
 
 .ibm-upload-link::before {
-  content: "\f177"
+  content: "\f1f1"
+}
+
+.ibm-user-link::before, .ibm-profile-link::before {
+  content: "\f208"
+}
+
+.ibm-user-follow-link::before {
+  content: "\f209"
 }
 
 .ibm-video-link::before {
-  content: "\f178"
+  content: "\f1f2"
 }
 
 .ibm-videochat-link::before {
-  content: "\f179"
+  content: "\f1f3"
 }
 
 .ibm-view-link::before {
-  content: "\f17a"
+  content: "\f1f4"
 }
 
 .ibm-vine-link::before, .ibm-vine-encircled-link::before, .ibm-vine-mono-link::before {
-  content: "\f17b"
+  content: "\f1f5"
 }
 
 .ibm-wiki-link::before {
-  content: "\f17c"
+  content: "\f1f6"
 }
 
 .ibm-world-link::before {
-  content: "\f17d"
+  content: "\f1f7"
 }
 
 .ibm-wykop-link::before, .ibm-wykop-encircled-link::before, .ibm-wykop-mono-link::before {
-  content: "\f17e"
+  content: "\f1f8"
 }
 
 .ibm-xing-link::before, .ibm-xing-encircled-link::before, .ibm-xing-mono-link::before {
-  content: "\f17f"
+  content: "\f1f9"
 }
 
 .ibm-yahoo-link::before, .ibm-yahoo-encircled-link::before, .ibm-yahoo-mono-link::before {
-  content: "\f180"
+  content: "\f1fa"
 }
 
 .ibm-youtube-link::before, .ibm-youtube-encircled-link::before, .ibm-youtube-mono-link::before {
-  content: "\f181"
+  content: "\f1fb"
 }
 
 [data-icon]::before {
@@ -1862,12 +1830,12 @@ p.ibm-caption {
 
 [data-icon]::before, [class*='-link']::before, .select2-container--default .select2-selection--single .select2-selection__arrow b:before, .ibm-icon-after::after, #ibm-parent-link a::before, #ibm-navigation-trail li::after, .ibm-bullet::before, .ibm-close::before, #ibm-home a:before, .ibm-show-hide>h2 a::before, .ibm-sitenav-menu-list>ul>li.ibm-haschildlist>button::before, .ibm-sitenav-menu-list>ul>li.ibm-haschildlist>span::before, .ibm-sitenav-menu-list>ul>li.ibm-haschildlist>a::before, .ibm-step-indicator .ibm-tabs li::after, ul.ibm-twisty>li a.ibm-twisty-trigger::before {
   display: inline-block;
-  font-family: "icons-ibm-v11";
-  font-size: 1.6em;
+  font-family: "icons-ibm-v12";
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
-  left: -1px;
+  left: 0;
   position: absolute;
   text-decoration: none;
   speak: none;
@@ -1955,6 +1923,10 @@ ul.ibm-link-list a.ibm-icon-after::after, .ibm-ind-link a.ibm-icon-after::after,
 
 a[class*='-link'].ibm-inlinelink {
   padding-left: 1.7em
+}
+
+a[class*='-link'].ibm-inlinelink::before {
+  left: 2px
 }
 
 a[class*='-link'].ibm-inlinelink.ibm-icon-after {
@@ -2222,8 +2194,9 @@ p.ibm-btt-auto.ibm-ind-link a {
 }
 
 p.ibm-btt-auto.ibm-ind-link a::before {
-  margin-left: 8px;
-  margin-top: 6px;
+  font-size: 2rem;
+  margin-left: 4px;
+  margin-top: 7px;
   transition: color .15s
 }
 
@@ -4348,7 +4321,6 @@ h2.ibm-alternate-rule, h3.ibm-alternate-rule, ul.ibm-alternate-rule, ol.ibm-alte
 }
 
 [id='ibm-primary-links'] .ibm-show-hide h2 a::before {
-  font-size: 20px;
   left: auto;
   right: 20px;
   transform-origin: 50% 50%;
@@ -4844,9 +4816,9 @@ h2.ibm-alternate-rule, h3.ibm-alternate-rule, ul.ibm-alternate-rule, ol.ibm-alte
 }
 
 .ibm-masthead-categories .ibm-hasmenu>a:before {
-  font-size: .9rem;
-  right: 0;
-  left: inherit
+  left: inherit;
+  right: -4px;
+  top: 0
 }
 
 .ibm-mh-mainitem .ibm-dropdown-menu {
@@ -4896,13 +4868,16 @@ h2.ibm-alternate-rule, h3.ibm-alternate-rule, ul.ibm-alternate-rule, ol.ibm-alte
 .ibm-masthead-iconsonly button {
   background: #fff;
   border: 0;
-  font-size: 14px;
   text-indent: 100px;
-  width: 21px
+  width: 19px
+}
+
+.ibm-masthead-iconsonly button.ibm-profile-link {
+  width: 18px
 }
 
 .ibm-masthead-iconsonly button:before {
-  text-indent: 0;
+  text-indent: -3px;
   top: 0
 }
 
@@ -4989,7 +4964,6 @@ h2.ibm-alternate-rule, h3.ibm-alternate-rule, ul.ibm-alternate-rule, ol.ibm-alte
 }
 
 #ibm-search.ibm-search-link {
-  font-size: .875rem;
   background: 0;
   color: #323232;
   cursor: pointer;
@@ -5010,7 +4984,7 @@ h2.ibm-alternate-rule, h3.ibm-alternate-rule, ul.ibm-alternate-rule, ol.ibm-alte
 }
 
 #ibm-search.ibm-search-link:before {
-  text-indent: 11px
+  text-indent: 9px
 }
 
 .ibm-masthead-iconsonly .ibm-masthead-item-menu {
@@ -5152,16 +5126,20 @@ h2.ibm-alternate-rule, h3.ibm-alternate-rule, ul.ibm-alternate-rule, ol.ibm-alte
   margin: 0;
   position: absolute;
   text-align: center;
-  transform: translate3d(-50%, -50%, 0px);
-  width: 40px
+  transform: translate3d(-50%, -50%, 0px)
 }
 
 .ibm-megamenu-close-container a:before {
+  font-size: 2.0rem;
   color: #959595
 }
 
 .ibm-megamenu-close-container a:hover:before, .ibm-megamenu-close-container a:focus:before {
   color: #3b6caa
+}
+
+.ibm-megamenu-close-container .ibm-icononly.ibm-ind-link a {
+  width: 2rem
 }
 
 .ibm-masthead-megamenu-showing .ibm-megamenu-close-container {
@@ -5237,7 +5215,7 @@ h2.ibm-alternate-rule, h3.ibm-alternate-rule, ul.ibm-alternate-rule, ol.ibm-alte
 
 .ibm-search-typeahead-container ul li.ibm-active:after {
   font-size: 1.7em;
-  font-family: "icons-ibm-v11";
+  font-family: "icons-ibm-v12";
   position: absolute;
   right: 10px;
   top: 50%;
@@ -5601,9 +5579,8 @@ body.ibm-show-mobilemenu-screen #ibm-mobilemenu-screen {
 }
 
 #ibm-navigation-trail li::after {
-  font-size: .75rem;
-  margin-left: 7px;
-  top: -1px;
+  margin-left: 2px;
+  top: 4px;
   position: relative
 }
 
@@ -6602,11 +6579,7 @@ p+.ibm-portrait-module-list {
   left: auto;
   line-height: normal;
   margin: auto;
-  top: 13px
-}
-
-.select2-container--default .select2-selection--single .select2-selection__arrow b:before {
-  margin-left: 7px
+  top: 6px
 }
 
 .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
@@ -6953,9 +6926,8 @@ p+.ibm-portrait-module-list {
 }
 
 .ibm-sitenav-menu-list>ul>li.ibm-haschildlist>button::before, .ibm-sitenav-menu-list>ul>li.ibm-haschildlist>span::before, .ibm-sitenav-menu-list>ul>li.ibm-haschildlist>a::before {
-  font-size: .9rem;
   left: inherit;
-  right: 0
+  right: -4px
 }
 
 @supports(-ms-accelerator:true) {
@@ -7129,7 +7101,7 @@ p+.ibm-portrait-module-list {
 }
 
 .slick-prev:before, .slick-next:before {
-  font-family: "icons-ibm-v11";
+  font-family: "icons-ibm-v12";
   font-size: 20px;
   line-height: 1;
   color: white;
@@ -7223,7 +7195,7 @@ p+.ibm-portrait-module-list {
   -webkit-font-smoothing: antialiased;
   color: black;
   content: "•";
-  font-family: "icons-ibm-v11";
+  font-family: "icons-ibm-v12";
   font-size: 6px;
   height: 20px;
   left: 0;
@@ -7264,25 +7236,23 @@ p+.ibm-portrait-module-list {
 }
 
 .ibm-carousel-controls .ibm-cc-prev {
-  transform: translate3d(-100%, 0px, 0px)
+  transform: translate3d(-50%, 0px, 0px)
 }
 
 .ibm-carousel-controls .ibm-cc-next {
-  transform: translate3d(100%, 0px, 0px)
+  transform: translate3d(50%, 0px, 0px)
 }
 
 .ibm-carousel-prev, .ibm-carousel-next {
   background: 0;
   border: 0;
   cursor: pointer;
-  font-size: 20px;
-  height: 1.5em;
-  line-height: 1.5em;
+  line-height: 2rem;
   overflow: hidden;
   position: relative;
   padding: 0;
   text-indent: 99px;
-  width: 18px
+  width: 20px
 }
 
 .ibm-carousel-prev:hover, .ibm-carousel-prev:focus, .ibm-carousel-next:hover, .ibm-carousel-next:focus {
@@ -7290,8 +7260,9 @@ p+.ibm-portrait-module-list {
 }
 
 .ibm-carousel-prev:before, .ibm-carousel-next:before {
-  text-indent: -6px;
-  top: 0
+  font-size: 2rem;
+  text-indent: -7px;
+  top: 1px
 }
 
 .ibm-carousel-prev.slick-disabled, .ibm-carousel-next.slick-disabled {
@@ -7306,7 +7277,8 @@ p+.ibm-portrait-module-list {
 }
 
 .ibm-carousel__arrows--large .ibm-carousel-prev, .ibm-carousel__arrows--large .ibm-carousel-next {
-  font-size: 44px;
+  font-size: 4rem;
+  height: 50px;
   position: absolute;
   top: 50%;
   transform: translate3d(0, -50%, 0);
@@ -7315,7 +7287,9 @@ p+.ibm-portrait-module-list {
 }
 
 .ibm-carousel__arrows--large .ibm-carousel-prev:before, .ibm-carousel__arrows--large .ibm-carousel-next:before {
-  text-indent: -16px
+  font-size: 4rem;
+  text-indent: -15px;
+  top: 8px
 }
 
 @media only screen and (min-width:0) and (max-width:579px) {
@@ -7333,7 +7307,7 @@ p+.ibm-portrait-module-list {
 }
 
 .ibm-carousel__controls--light .ibm-carousel-controls, .ibm-carousel__controls--light .ibm-carousel-controls button, .ibm-carousel__controls--light .slick-dots button, .ibm-carousel__controls--light>button {
-  color: #c7c7c7
+  color: #fff
 }
 
 .ibm-carousel__controls--light .ibm-carousel-controls:hover, .ibm-carousel__controls--light .ibm-carousel-controls:focus, .ibm-carousel__controls--light .ibm-carousel-controls button:hover, .ibm-carousel__controls--light .ibm-carousel-controls button:focus, .ibm-carousel__controls--light .slick-dots button:hover, .ibm-carousel__controls--light .slick-dots button:focus, .ibm-carousel__controls--light>button:hover, .ibm-carousel__controls--light>button:focus {
@@ -7534,7 +7508,6 @@ span.ibm-spinner {
 }
 
 .ibm-step-indicator .ibm-tabs li::after {
-  font-size: 1.125rem;
   color: #c7c7c7;
   left: auto;
   right: 10px;
