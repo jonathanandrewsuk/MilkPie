@@ -1,4 +1,4 @@
-import TestCard from './TestCard'
+import TestCard from './TestCard.jsx'
 import TestButton from './TestButton'
 import TestHello from './TestHello'
 import ResponsiveLayout from './ResponsiveLayout'
@@ -12,7 +12,8 @@ import MyFeed from './Social/MyFeed'
 import TestForm from './TestForm'
 import RegisterModal from './RegisterModal'
 import SearchBarNav from './SearchBarNav'
-import ThemingLayout from './ThemingLayout'
+import ThemingLayout from './ThemingLayout.jsx'
+import PrivateRoute from './PrivateRoute'
 
 
 export {
@@ -30,5 +31,6 @@ export {
   TestForm,
   RegisterModal,
   SearchBarNav,
-  ThemingLayout
+  ThemingLayout,
+  PrivateRoute
 }

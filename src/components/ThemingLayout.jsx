@@ -211,6 +211,5 @@ const ThemingLayout = () => (
       </Grid.Column>
     </Grid>
   </Container>
-)
-
+);
 export default ThemingLayout
