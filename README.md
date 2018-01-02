@@ -8,7 +8,7 @@
 A combination of open source tools setup to play nicely with each other.
 
 **Why is it useful? :**
-You can stop writing boilerplate, making folders and running terminal commands. Just make your app
+You can stop writing boilerplate, making folders and running terminal commands. <b/>Just make your app
 
 | Tool  | Info |
 | ------------- | ------------- |
