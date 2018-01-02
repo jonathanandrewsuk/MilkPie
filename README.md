@@ -7,7 +7,12 @@ A simple kit of parts to start your React app.
 
 ----------
 
+# Ingredients
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+## create-react-app
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). Here's the [guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
-You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+## Semantic UI React
+Semantic theming means you can easily change the look of your cite with minimal effort
+
+...TODO: finish read me
