@@ -1,34 +1,26 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Input, Label, Menu } from 'semantic-ui-react'
+import { NavLink } from 'react-router-dom';
 
-export default class MenuExampleSizeVerticalMini extends Component {
-  state = { activeItem: 'inbox' }
+const MiniMenu = ()  => (
+  <Menu size='small' vertical fluid="true">
+    <Menu.Item as={NavLink} name='inbox' to='/inbox'>
+      <Label color='teal'>1</Label>
+      Inbox
+    </Menu.Item>
 
-  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+    <Menu.Item as={NavLink} name='spam' to='/spam' >
+      <Label>51</Label>
+      Spam
+    </Menu.Item>
 
-  render() {
-    const { activeItem } = this.state
-
-    return (
-      <Menu size='small' vertical fluid="true">
-        <Menu.Item name='inbox' active={activeItem === 'inbox'} onClick={this.handleItemClick}>
-          <Label color='teal'>1</Label>
-          Inbox
-        </Menu.Item>
-
-        <Menu.Item name='spam' active={activeItem === 'spam'} onClick={this.handleItemClick}>
-          <Label>51</Label>
-          Spam
-        </Menu.Item>
-
-        <Menu.Item name='updates' active={activeItem === 'updates'} onClick={this.handleItemClick}>
-          <Label>1</Label>
-          Updates
-        </Menu.Item>
-        <Menu.Item>
-          <Input icon='search' placeholder='Search mail...' />
-        </Menu.Item>
-      </Menu>
-    )
-  }
-}
+    <Menu.Item as={NavLink} name='updates' to='/updates' >
+      <Label>1</Label>
+      Updates
+    </Menu.Item>
+    <Menu.Item>
+      <Input icon='search' placeholder='Search mail...' />
+    </Menu.Item>
+  </Menu>
+);
+export default MiniMenu;
