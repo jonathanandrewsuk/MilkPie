@@ -1,9 +1,9 @@
 import React from 'react'
 import { Button, Container, Divider, Grid, Header, Image, Menu, Segment } from 'semantic-ui-react'
 
-const ThemingLayout = () => (
+const ThemingLayout = (props) => (
   <Container>
-    <Header as='h1'>Theming Examples</Header>
+    <Header as='h1'>{props.example.greeting}</Header>
 
     <Header as='h2' dividing>Site</Header>
 
@@ -106,7 +106,7 @@ const ThemingLayout = () => (
     <Grid columns='equal'>
       <Grid.Column>
         <Button>Default</Button>
-        <Button primary>Primary</Button>
+        <Button primary onClick={() => {props.exampleActions.s$changeGreeting('bye')}}>Change Greeting</Button>
         <Button secondary>Secondary</Button>
         <Button basic>Basic</Button>
         <Button compact>Compact</Button>

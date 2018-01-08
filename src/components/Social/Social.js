@@ -5,7 +5,6 @@ import {
 
 import { FeedSummary, MiniMenu, MyFeed } from '../../components'
 
-
 const Home = () => (
   <div>
 

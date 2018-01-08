@@ -3,13 +3,19 @@ import { Switch, Route } from 'react-router-dom'
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router'
+import * as exampleActions from '../actions/example';
 
 import { Social, TestForm, ThemingLayout, PrivateRoute } from '../components'
 
 class Main extends Component {
-  render() {
-    return (
+  constructor(props) {
+    super(props);
+    this.state = {
+    };
+  }
 
+  render(){
+    return (
       <main style={{paddingTop: "90px", paddingBottom: "30px"}}>
         <Switch>
           <Route exact path='/' render={(props) => (<ThemingLayout {...this.props}/>)}/>
@@ -18,9 +24,20 @@ class Main extends Component {
           <PrivateRoute authed={this.props.authed} path='/dashboard' component={(props) => (<TestForm {...this.props}/>)}/>
         </Switch>
       </main>
-
     );
   }
 }
 
-export default Main;
+function mapStateToProps(state, props) {
+    return {
+        example: state.example,
+    };
+}
+
+function mapDispatchToProps(dispatch) {
+    return {
+      exampleActions: bindActionCreators(exampleActions, dispatch),
+    }
+}
+
+export default withRouter(connect(mapStateToProps, mapDispatchToProps) (Main));
