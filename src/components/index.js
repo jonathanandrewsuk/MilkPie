@@ -1,36 +1,19 @@
-import TestCard from './TestCard.jsx'
-import TestButton from './TestButton'
-import TestHello from './TestHello'
-import ResponsiveLayout from './ResponsiveLayout'
-import ButtonExampleAnimated from './ButtonExampleAnimated'
-import NavBar from './NavBar'
-import Social from './Social/Social'
-import FeedSummary from './Social/FeedSummary'
-import MiniMenu from './Social/MiniMenu'
-import MyCard from './Common/MyCard'
-import MyFeed from './Social/MyFeed'
-import TestForm from './TestForm'
-import RegisterModal from './RegisterModal'
-import SearchBarNav from './SearchBarNav'
-import ThemingLayout from './ThemingLayout.jsx'
-import PrivateRoute from './PrivateRoute'
-
+import NavBar from './NavBar/index.js'
+import Social from './ThreeColumnLayout/index.jsx';
+import FeedSummary from './ThreeColumnLayout/FeedSummary'
+import MiniMenu from './ThreeColumnLayout/MiniMenu'
+import MyFeed from './ThreeColumnLayout/MyFeed';
+import ThreeColumnLayout from './ThreeColumnLayout/index.jsx';
+import ThemingLayout from './ThemingLayout';
+import Introduction from './Introduction'
 
 export {
-  TestCard,
-  TestButton,
-  ResponsiveLayout,
-  TestHello,
-  ButtonExampleAnimated,
   NavBar,
   Social,
   FeedSummary,
   MiniMenu,
-  MyCard,
   MyFeed,
-  TestForm,
-  RegisterModal,
-  SearchBarNav,
+  ThreeColumnLayout,
   ThemingLayout,
-  PrivateRoute
-}
+  Introduction,
+};

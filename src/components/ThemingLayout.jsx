@@ -3,7 +3,7 @@ import { Button, Container, Divider, Grid, Header, Image, Menu, Segment } from '
 
 const ThemingLayout = (props) => (
   <Container>
-    <Header as='h1'>{props.example.greeting}</Header>
+    <Header as='h1'>Theme Example</Header>
 
     <Header as='h2' dividing>Site</Header>
 
@@ -106,7 +106,7 @@ const ThemingLayout = (props) => (
     <Grid columns='equal'>
       <Grid.Column>
         <Button>Default</Button>
-        <Button primary onClick={() => {props.exampleActions.s$changeGreeting('bye')}}>Change Greeting</Button>
+        <Button primary>Primary</Button>
         <Button secondary>Secondary</Button>
         <Button basic>Basic</Button>
         <Button compact>Compact</Button>

@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 import { withRouter } from 'react-router'
 import * as exampleActions from '../actions/example';
 
-import { Social, TestForm, ThemingLayout, PrivateRoute } from '../components'
+import { ThreeColumnLayout, ThemingLayout, Introduction } from '../components'
 
 class Main extends Component {
   constructor(props) {
@@ -18,10 +18,9 @@ class Main extends Component {
     return (
       <main style={{paddingTop: "90px", paddingBottom: "30px"}}>
         <Switch>
-          <Route exact path='/' render={(props) => (<ThemingLayout {...this.props}/>)}/>
-          <Route exact path='/social' render={(props) => (<Social {...this.props}/>)}/>
-          <Route exact path='/register' render={(props) => (<TestForm {...this.props}/>)}/>
-          <PrivateRoute authed={this.props.authed} path='/dashboard' component={(props) => (<TestForm {...this.props}/>)}/>
+          <Route exact path='/' render={(props) => (<Introduction {...this.props}/>)}/>
+          <Route exact path='/theme' render={(props) => (<ThemingLayout {...this.props}/>)}/>
+          <Route exact path='/three' render={(props) => (<ThreeColumnLayout {...this.props}/>)}/>
         </Switch>
       </main>
     );

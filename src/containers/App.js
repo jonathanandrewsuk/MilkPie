@@ -5,12 +5,13 @@ import { NavBar } from '../components'
 
 // Menu Items
 const leftItems = [
-  { as: "a", content: "Home", key: "home", icon: "home", url: "/"},
-  { as: "a", content: "Social", key: "form", icon: "write", url: "social" }
+  { content: "Home", key: "home", icon: "home", url: "/"},
+  { content: "Theme", key: "theme", icon: "theme", url: "theme" },
+  { content: "3 Columns", key: "three", icon: "write", url: "three" },
 ];
 const rightItems = [
-  { as: "a", content: "Login", key: "login", url: "/" },
-  { as: "a", content: "Register", key: "register", url: "register"  }
+  { content: "Login", key: "login", url: "/" },
+  { content: "Register", key: "register", url: "register"  }
 ];
 
 
