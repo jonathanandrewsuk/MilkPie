@@ -1,9 +1,11 @@
 import React from 'react'
-import { Container, Grid, Header, Segment } from 'semantic-ui-react';
+import { Container, Grid, Header } from 'semantic-ui-react';
 
 const ThemingLayout = () => (
   <Container>
-    <Header as='h1'>Welcome to Milk Pie 🥛🥧</Header>
+    <Header as='h1'>Welcome to Milk Pie <span role="img" aria-label="Milk">🥛</span><span role="img" aria-label="Pie">🥧</span></Header>
+
+
 
     <Grid columns={2} stackable>
       <Grid.Column>

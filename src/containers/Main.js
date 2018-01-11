@@ -1,8 +1,10 @@
+import * as axios from 'axios';
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom'
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router'
+
 import * as exampleActions from '../actions/example';
 
 import { ThreeColumnLayout, ThemingLayout, Introduction } from '../components'
@@ -12,6 +14,18 @@ class Main extends Component {
     super(props);
     this.state = {
     };
+  }
+
+  componentDidMount() {
+    axios.get('/api/photos').then(res=> {
+      console.log('[Main] fetch photos', res)
+    })
+    axios.get('https://jsonplaceholder.typicode.com/posts/1').then(res=> {
+      console.log('[Main] fetch typicode', res)
+    })
+    .catch(e => {
+      console.error('[Main] fetch photos', e)
+    })
   }
 
   render(){

@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.17.1",
     "faker": "^4.1.0",
+    "pretender": "git+https://github.com/fuse-mars/pretender.git",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "react-redux": "^5.0.6",

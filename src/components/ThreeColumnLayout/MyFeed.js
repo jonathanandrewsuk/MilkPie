@@ -1,5 +1,5 @@
 import React from 'react'
-import { Feed, Icon } from 'semantic-ui-react'
+import { Feed } from 'semantic-ui-react'
 
 const events = [{
   date: '1 Hour Ago',
@@ -33,6 +33,6 @@ const events = [{
   ],
 }]
 
-const MyFeed = () => <Feed id="largeFeed" events={events} />
+const MyFeed = () => <Feed className="largeFeed" events={events} />
 
 export default MyFeed
