@@ -2,12 +2,13 @@ import React, { Component } from "react";
 import { Main } from '../containers'
 import { NavBar } from '../components'
 
-
 // Menu Items
 const leftItems = [
   { content: "Home", key: "home", icon: "home", url: "/"},
   { content: "Theme", key: "theme", icon: "theme", url: "theme" },
-  { content: "3 Columns", key: "three", icon: "write", url: "three" },
+  { content: "Layout", key: "three", icon: "write", url: "three" },
+  { content: "Redux", key: "redux", icon: "tree", url: "redux" },
+  { content: "API", key: "api-caller", icon: "external square", url: "api-caller" },
 ];
 const rightItems = [
   { content: "Login", key: "login", url: "/" },
@@ -16,7 +17,7 @@ const rightItems = [
 
 
 const App = () => (
-    <NavBar id="topFixedNavBar" leftItems={leftItems} rightItems={rightItems}>
+    <NavBar id="topFixedNavBar" leftItems={leftItems} rightItems={rightItems} children={<p>hello</p>}>
         <Main/>
     </NavBar>
 );

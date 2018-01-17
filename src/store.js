@@ -13,7 +13,7 @@ export default function createAppStore(initialValue = {}) {
   let store;
 
   if (process.env.NODE_ENV === 'development') {
-    // Turn on mock server
+    // Turn on mock server.
     Server.on();
     // Development mode with Redux DevTools support enabled.
     const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({

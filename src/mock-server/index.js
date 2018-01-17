@@ -16,13 +16,9 @@ export let server;
 export default {
   on: () => {
     server = new Pretender(function(){
-      this.get('/api/photos', function(request){
+      this.get('/photos', function(request){
         var all =  JSON.stringify(Object.keys(PHOTOS).map(function(k){return PHOTOS[k]}))
         return [200, {"Content-Type": "application/json"}, all]
-      });
-
-      this.get('/photos/:id', function(request){
-        return [200, {"Content-Type": "application/json"}, JSON.stringify(PHOTOS[request.params.id])]
       });
     });
     console.log('[mock-server] Pretender', server)

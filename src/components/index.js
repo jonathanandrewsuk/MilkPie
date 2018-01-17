@@ -5,7 +5,9 @@ import MiniMenu from './ThreeColumnLayout/MiniMenu'
 import MyFeed from './ThreeColumnLayout/MyFeed';
 import ThreeColumnLayout from './ThreeColumnLayout/index.jsx';
 import ThemingLayout from './ThemingLayout';
-import Introduction from './Introduction'
+import Introduction from './Introduction';
+import ReduxExample from './ReduxExample';
+import APICaller from './APICaller';
 
 export {
   NavBar,
@@ -16,4 +18,6 @@ export {
   ThreeColumnLayout,
   ThemingLayout,
   Introduction,
+  ReduxExample,
+  APICaller,
 };

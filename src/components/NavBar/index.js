@@ -11,6 +11,8 @@ import {
 
 import SearchBarNav from './SearchBarNav.jsx'
 
+
+
 const NavBarMobile = ({
   children,
   leftItems,
@@ -47,7 +49,6 @@ const NavBarMobile = ({
         {rightItems.map(item => <NavLink className="a" to={item.url}><Menu.Item style={{height: "60px"}} as="a" key={item.key}>{item.content}</Menu.Item></NavLink>)}
         </Menu.Menu>
       </Menu>
-
     </Sidebar.Pusher>
   </Sidebar.Pushable>
 );
@@ -69,7 +70,6 @@ const NavBarDesktop = ({ leftItems, rightItems }) => (
         {rightItems.map(item => <NavLink className="a" to={item.url}><Menu.Item style={{height: "60px"}} as="a" key={item.key}>{item.content}</Menu.Item></NavLink>)}
       </Menu.Menu>
     </Container>
-
   </Menu>
 );
 
@@ -81,6 +81,8 @@ class NavBar extends Component {
   state = {
     visible: false
   };
+
+
 
   handlePusher = () => {
     const { visible } = this.state;
