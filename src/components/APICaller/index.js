@@ -1,7 +1,22 @@
 import React from 'react';
-import { Grid, Button } from 'semantic-ui-react';
+import { Grid, Button, Card } from 'semantic-ui-react';
 
-const ReduxExample = (props) => (
+
+
+const MappedCards = (props) => (
+  props.example.photos.map(card => {return <MyCard image={card.src} header={card.id} />})
+)
+
+const MyCard = (props) => (
+  <Card
+    fluid
+    image={props.image}
+    header={props.header}
+  />
+);
+
+
+const APICaller = (props) => (
   <div>
     <Grid container doubling stackable>
       <Grid.Column width={4} />
@@ -9,10 +24,11 @@ const ReduxExample = (props) => (
         <Button
           color='pink'
           fluid
-          onClick={() => { props.exampleActions.getPhotos()}}
+          onClick={() => { props.exampleActions.getPhotos() }}
         >
           Fire Get Request
         </Button>
+        <MappedCards {...props}/>
       </Grid.Column>
       <Grid.Column width={4} />
     </Grid>
@@ -21,4 +37,4 @@ const ReduxExample = (props) => (
   </div>
 );
 
-export default ReduxExample;
+export default APICaller;

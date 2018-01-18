@@ -17,10 +17,18 @@ export const changeColor = (data) => (
 export const CHANGE_COLOR = 'CHANGE_COLOR';
 
 
+export const S$_GET_PHOTOS = 'S$_GET_PHOTOS';
 export const getPhotos = () => (
 {
       type: S$_GET_PHOTOS,
   }
 );
 
-export const S$_GET_PHOTOS = 'S$_GET_PHOTOS';
+
+export const UPDATE_PHOTOS = 'UPDATE_PHOTOS';
+export const updatePhotos = (data) => (
+{
+      type: UPDATE_PHOTOS,
+      data
+  }
+);

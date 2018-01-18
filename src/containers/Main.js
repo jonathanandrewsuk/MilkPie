@@ -27,7 +27,6 @@ class Main extends Component {
   //     console.error('[Main] fetch photos', e)
   //   })
   // }
-
   render(){
     return (
       <main style={{paddingTop: "90px", paddingBottom: "30px"}}>

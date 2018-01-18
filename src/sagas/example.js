@@ -1,9 +1,12 @@
 import axios from 'axios';
 import { call, put, takeEvery, takeLatest } from 'redux-saga/effects';
 
+import apiUrl from '../common/helpers';
+
 import { S$_CHANGE_GREETING,
         CHANGE_GREETING,
-        S$_GET_PHOTOS
+        S$_GET_PHOTOS,
+        UPDATE_PHOTOS,
       } from '../actions/example';
 
 
@@ -18,21 +21,23 @@ function* changeGreeting(action) {
 
 function* getPhotos(action) {
   try {
-    // yield put({ type: BEGIN_FETCHING });
+
+    // yield put({ type: BEGIN_FETCHING, data: props.appState.message, target:"test"});
     const apiResponse = yield call(productService.getPhotos, action)
     // yield put({ type: COMPLETE_FETCHING });
     console.log('hello', apiResponse)
-    // yield put({ type: UPDATE_PHOTOS, data: apiResponse.data });
+    yield put({ type: UPDATE_PHOTOS, data: apiResponse.data });
 
   } catch (e) {
     // yield put({ type: FETCHING_FAILED, data: e.message});
+    console.log("errrrrrro", e)
   }
 
 }
 
 
 const productService = {
-  getPhotos: () => axios.get('http://localhost:3000/photos')
+  getPhotos: () => axios.get(`${apiUrl}/photos`)
 
 }
 
