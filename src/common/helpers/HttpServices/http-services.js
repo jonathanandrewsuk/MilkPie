@@ -23,7 +23,7 @@ function getResponseData(res) {
   return res;
 }
 
-export class HttpServices {
+export class HttpServicesClass {
   constructor(host = DEFAULT_BASE_URL) {
     this.host = host;
     this.user = null;
@@ -146,5 +146,5 @@ export class HttpServices {
   }
 }
 
-export default new HttpServices();
+export default new HttpServicesClass();
 
