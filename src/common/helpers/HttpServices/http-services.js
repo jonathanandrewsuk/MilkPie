@@ -5,6 +5,7 @@ const DEFAULT_BASE_URL = process.env.BACKEND_HOST || 'https://localhost:3000/api
 
 //= =================== staging ====================
 
+
 //= =================== production ====================
 
 const DEFAULT_TIMEOUT = 10000;
@@ -119,7 +120,7 @@ export class HttpServicesClass {
     // callback creator: @returns a function (err, res) => any
     const callback = (resolve, reject) => (err, res) => (err ? reject(err) : resolve(res));
 
-    // api function creator: @returns a Promise that 
+    // api function creator: @returns a Promise that
     // rejects if error is returned (i.e. Promise.reject(err)) and
     // resolves otherwise (i.e. Promise.resolve(res))
     const wrapper = wrappedFunction =>
@@ -147,4 +148,3 @@ export class HttpServicesClass {
 }
 
 export default new HttpServicesClass();
-

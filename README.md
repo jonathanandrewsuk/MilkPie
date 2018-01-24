@@ -10,9 +10,12 @@ A combination of open source tools setup to play nicely with each other.
 **Why is it useful? :**
 Reduced amounts of boilerplate, making folders and running terminal commands.
 
-| Tool  | Info |
+| Tool  | Link |
 | ------------- | ------------- |
-| **Create React App**  | This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). Here's the [guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).  |
-| **Semantic UI React**  | Semantic theming means you can change elements styles from the config file  |
-| **Redux**  | State Management  |
-| **React Router**  | Links, navigation and passing the Redux state throughout the app  |
+| **Create React App**  | [Read More](https://github.com/facebookincubator/create-react-app) |
+| **Semantic UI React**  | [Read More](https://react.semantic-ui.com/introductionredux)  |
+| **Redux**  | [Read More](https://redux.js.org/)  |
+| **React Router**  | [Read More](https://github.com/ReactTraining/react-router)  |
+| **Pretender**  | [Read More](https://github.com/pretenderjs/pretender)  |
+| **Axios**  | [Read More](https://github.com/axios/axios)  |
+| **React Redux Loading Bar**  | [Read More](https://github.com/mironov/react-redux-loading-bar  |
