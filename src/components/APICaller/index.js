@@ -2,7 +2,6 @@ import React from 'react';
 import { Grid, Button, Card } from 'semantic-ui-react';
 
 
-
 const MappedCards = (props) => (
   props.example.photos.map(card => {return <MyCard image={card.src} header={card.id} />})
 )
@@ -15,9 +14,7 @@ const MyCard = (props) => (
   />
 );
 
-
 const APICaller = (props) => (
-  <div>
     <Grid container doubling stackable>
       <Grid.Column width={4} />
       <Grid.Column width={8}>
@@ -32,9 +29,6 @@ const APICaller = (props) => (
       </Grid.Column>
       <Grid.Column width={4} />
     </Grid>
-
-
-  </div>
 );
 
 export default APICaller;

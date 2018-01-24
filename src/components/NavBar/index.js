@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
+import LoadingBar from 'react-redux-loading-bar';
+
 import {
   Container,
   Icon,
@@ -39,6 +41,7 @@ const NavBarMobile = ({
     >
       {children}
       <Menu fixed="top" inverted>
+        <LoadingBar style={{ backgroundColor: 'orange', height: '3px', top: 0}} />
         <Menu.Item style={{height: "60px"}} onClick={onToggle}>
           <Icon name="sidebar" />
         </Menu.Item>
@@ -55,6 +58,7 @@ const NavBarMobile = ({
 
 const NavBarDesktop = ({ leftItems, rightItems }) => (
   <Menu fixed="top" inverted>
+    <LoadingBar style={{ backgroundColor: 'orange', height: '3px', top: 0}} />
     <Container>
       <Menu.Item>
         <NavLink className="a" to="/"><Image size="mini" src={require('../../assets/images/logo.png')} /></NavLink>
@@ -81,8 +85,6 @@ class NavBar extends Component {
   state = {
     visible: false
   };
-
-
 
   handlePusher = () => {
     const { visible } = this.state;

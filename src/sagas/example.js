@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { call, put, takeEvery, takeLatest } from 'redux-saga/effects';
+import { showLoading, hideLoading } from 'react-redux-loading-bar'
 
 import apiUrl from '../common/helpers';
 
@@ -21,7 +22,7 @@ function* changeGreeting(action) {
 
 function* getPhotos(action) {
   try {
-
+    yield put(showLoading())
     // yield put({ type: BEGIN_FETCHING, data: props.appState.message, target:"test"});
     const apiResponse = yield call(productService.getPhotos, action)
     // yield put({ type: COMPLETE_FETCHING });
@@ -31,6 +32,8 @@ function* getPhotos(action) {
   } catch (e) {
     // yield put({ type: FETCHING_FAILED, data: e.message});
     console.log("errrrrrro", e)
+  } finally {
+    yield put(hideLoading())
   }
 
 }

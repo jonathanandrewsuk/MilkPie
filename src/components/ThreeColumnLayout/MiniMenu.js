@@ -3,7 +3,7 @@ import { Input, Label, Menu } from 'semantic-ui-react'
 import { NavLink } from 'react-router-dom';
 
 const MiniMenu = ()  => (
-  <Menu size='small' vertical fluid="true">
+  <Menu size='small' vertical fluid>
     <Menu.Item as={NavLink} name='inbox' to='/inbox'>
       <Label color='teal'>1</Label>
       Inbox
