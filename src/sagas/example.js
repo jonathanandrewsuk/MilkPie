@@ -1,47 +1,39 @@
-import axios from 'axios';
 import { call, put, takeEvery, takeLatest } from 'redux-saga/effects';
-import { showLoading, hideLoading } from 'react-redux-loading-bar'
-
-import apiUrl from '../common/helpers';
+import { showLoading, hideLoading } from 'react-redux-loading-bar';
 
 import { S$_CHANGE_GREETING,
-        CHANGE_GREETING,
-        S$_GET_PHOTOS,
-        UPDATE_PHOTOS,
-      } from '../actions/example';
+  CHANGE_GREETING,
+  S$_GET_PHOTOS,
+  UPDATE_PHOTOS,
+} from '../actions/example';
 
+import apiUrl from '../common/helpers';
+import { HttpServicesClass } from '../common/helpers/HttpServices';
+
+const HttpServices = new HttpServicesClass(apiUrl);
 
 function* changeGreeting(action) {
-   try {
-     yield put({ type: CHANGE_GREETING, data: action.data });
-   } catch (e) {
-     console.log('changeGreeting error', e);
-   }
+  try {
+    yield put({ type: CHANGE_GREETING, data: action.data });
+  } catch (e) {
+    console.log('changeGreeting error', e);
+  }
 }
 
-
-function* getPhotos(action) {
+function* getPhotos(/* action */) {
   try {
-    yield put(showLoading())
+    yield put(showLoading());
     // yield put({ type: BEGIN_FETCHING, data: props.appState.message, target:"test"});
-    const apiResponse = yield call(productService.getPhotos, action)
+    const data = yield call(HttpServices.async.get, '/photos');
     // yield put({ type: COMPLETE_FETCHING });
-    console.log('hello', apiResponse)
-    yield put({ type: UPDATE_PHOTOS, data: apiResponse.data });
-
+    console.log('hello', data);
+    yield put({ type: UPDATE_PHOTOS, data });
   } catch (e) {
     // yield put({ type: FETCHING_FAILED, data: e.message});
-    console.log("errrrrrro", e)
+    console.log('error', e);
   } finally {
-    yield put(hideLoading())
+    yield put(hideLoading());
   }
-
-}
-
-
-const productService = {
-  getPhotos: () => axios.get(`${apiUrl}/photos`)
-
 }
 
 export default function* allSettingsSagas() {
