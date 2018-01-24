@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 
+
 import './styles/index.css';
 import { App } from './containers';
 import './styles/semantic/dist/semantic.min.css';

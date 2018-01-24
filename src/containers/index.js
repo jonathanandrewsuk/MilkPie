@@ -1,4 +1,4 @@
-import App from './App';
+import App from './App.jsx';
 import Main from './Main';
 
 export {
