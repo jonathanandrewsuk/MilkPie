@@ -8,6 +8,7 @@ import ThemingLayout from './ThemingLayout';
 import Introduction from './Introduction';
 import ReduxExample from './ReduxExample';
 import APICaller from './APICaller';
+import LoginForm from './LoginForm';
 
 export {
   NavBar,
@@ -20,4 +21,5 @@ export {
   Introduction,
   ReduxExample,
   APICaller,
+  LoginForm
 };

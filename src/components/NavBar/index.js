@@ -41,7 +41,7 @@ const NavBarMobile = ({
     >
       {children}
       <Menu fixed="top" inverted>
-        <LoadingBar style={{ backgroundColor: 'orange', height: '3px', top: 0}} />
+        <LoadingBar style={{ backgroundColor: 'orange', height: '3px', top: 0}} updateTime={100} maxProgress={95} progressIncrease={10} />
         <Menu.Item style={{height: "60px"}} onClick={onToggle}>
           <Icon name="sidebar" />
         </Menu.Item>
@@ -58,7 +58,7 @@ const NavBarMobile = ({
 
 const NavBarDesktop = ({ leftItems, rightItems }) => (
   <Menu fixed="top" inverted>
-    <LoadingBar style={{ backgroundColor: 'orange', height: '3px', top: 0}} />
+    <LoadingBar style={{ backgroundColor: 'orange', height: '3px', top: 0}} updateTime={100} maxProgress={95} progressIncrease={10} />
     <Container>
       <Menu.Item>
         <NavLink className="a" to="/"><Image size="mini" src={require('../../assets/images/logo.png')} /></NavLink>

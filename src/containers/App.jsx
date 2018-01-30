@@ -25,7 +25,7 @@ const leftItems = [
 
 const rightItems = [
   {
-    content: 'Login', key: 'login', url: '/',
+    content: 'Login', key: 'login', url: '/login',
   },
   {
     content: 'Register', key: 'register', url: 'register',
