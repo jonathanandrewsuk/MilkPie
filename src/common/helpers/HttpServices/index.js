@@ -1,5 +1,5 @@
-import sericeInstance from './http-services';
+import serviceInstance from './http-services';
 
 export { HttpServicesClass } from './http-services';
 
-export default sericeInstance;
+export default serviceInstance;

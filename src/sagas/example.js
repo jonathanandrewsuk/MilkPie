@@ -20,17 +20,14 @@ function* changeGreeting(action) {
   }
 }
 
-function* getPhotos(/* action */) {
+function* getPhotos() {
   try {
     yield put(showLoading());
-    // yield put({ type: BEGIN_FETCHING, data: props.appState.message, target:"test"});
     const data = yield call(HttpServices.async.get, '/photos');
-    // yield put({ type: COMPLETE_FETCHING });
-    console.log('hello', data);
     yield put({ type: UPDATE_PHOTOS, data });
   } catch (e) {
     // yield put({ type: FETCHING_FAILED, data: e.message});
-    console.log('error', e);
+    console.log(' getPhotos error', e);
   } finally {
     yield put(hideLoading());
   }

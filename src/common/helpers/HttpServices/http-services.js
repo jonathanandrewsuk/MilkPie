@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 //= =================== localhost ====================
-const DEFAULT_BASE_URL = process.env.BACKEND_HOST || 'https://localhost:3000/api/v1';
+// This isn't being used, the api url in helpers is where it actually calls fro
+const DEFAULT_BASE_URL = process.env.BACKEND_HOST || 'api-url';
 
 //= =================== staging ====================
 
