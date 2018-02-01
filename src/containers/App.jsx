@@ -10,26 +10,20 @@ const leftItems = [
     content: 'Home', key: 'home', icon: 'home', url: '/',
   },
   {
-    content: 'Theme', key: 'theme', icon: 'theme', url: 'theme',
+    content: 'Spoke Client', key: 'spoke-client', icon: 'external square', url: 'spoke-client',
   },
   {
-    content: 'Layout', key: 'three', icon: 'write', url: 'three',
-  },
-  {
-    content: 'Redux', key: 'redux', icon: 'tree', url: 'redux',
-  },
-  {
-    content: 'API', key: 'api-caller', icon: 'external square', url: 'api-caller',
+    content: 'Spoke Provider', key: 'spoke-provider', icon: 'tree', url: 'spoke-provider',
   },
 ];
 
 const rightItems = [
-  {
-    content: 'Login', key: 'login', url: '/login',
-  },
-  {
-    content: 'Register', key: 'register', url: 'register',
-  },
+  // {
+  //   content: 'Login', key: 'login', url: '/login',
+  // },
+  // {
+  //   content: 'Register', key: 'register', url: 'register',
+  // },
 ];
 
 

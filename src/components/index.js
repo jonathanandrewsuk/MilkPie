@@ -9,6 +9,7 @@ import Introduction from './Introduction';
 import ReduxExample from './ReduxExample';
 import APICaller from './APICaller';
 import LoginForm from './LoginForm';
+import SpokeClient from './SpokeClient';
 
 export {
   NavBar,
@@ -21,5 +22,6 @@ export {
   Introduction,
   ReduxExample,
   APICaller,
-  LoginForm
+  LoginForm,
+  SpokeClient,
 };

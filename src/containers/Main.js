@@ -6,7 +6,7 @@ import { withRouter } from 'react-router';
 
 import * as exampleActions from '../actions/example';
 
-import { ThreeColumnLayout, ThemingLayout, Introduction, ReduxExample, APICaller, LoginForm } from '../components';
+import { ThreeColumnLayout, ThemingLayout, Introduction, ReduxExample, APICaller, LoginForm, SpokeClient } from '../components';
 
 class Main extends Component {
   constructor(props) {
@@ -21,11 +21,8 @@ class Main extends Component {
         <main style={{paddingTop: "90px", paddingBottom: "30px"}}>
           <Switch>
             <Route exact path='/' render={ (props) => <Introduction {...this.props} {...props} />} />
-            <Route exact path='/theme' render={(props) => (<ThemingLayout {...this.props} {...props} />)}/>
-            <Route exact path='/three' render={(props) => (<ThreeColumnLayout {...this.props} {...props} />)}/>
-            <Route exact path='/redux' render={(props) => (<ReduxExample {...this.props} {...props} />)}/>
-            <Route exact path='/api-caller' render={(props) => (<APICaller {...this.props} {...props} />)}/>
-            <Route exact path='/login' render={(props) => (<LoginForm {...this.props} {...props} />)}/>
+            <Route exact path='/spoke-client' render={(props) => (<SpokeClient {...this.props} {...props} />)}/>
+            <Route exact path='/spoke-provider' render={(props) => (<ThreeColumnLayout {...this.props} {...props} />)}/>
           </Switch>
         </main>
       </div>

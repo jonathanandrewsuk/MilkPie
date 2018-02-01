@@ -47,7 +47,7 @@ const NavBarMobile = ({
         </Menu.Item>
         <Menu.Menu position="right">
           <Menu.Item id="searchBarNav">
-            <SearchBarNav/>
+            {/* <SearchBarNav/> */}
           </Menu.Item>
         {rightItems.map(item => <NavLink className="a" to={item.url}><Menu.Item style={{height: "60px"}} as="a" key={item.key}>{item.content}</Menu.Item></NavLink>)}
         </Menu.Menu>
@@ -69,7 +69,7 @@ const NavBarDesktop = ({ leftItems, rightItems }) => (
         })}
       <Menu.Menu position="right">
         <Menu.Item id="searchBarNav">
-          <SearchBarNav/>
+          {/* <SearchBarNav/> */}
         </Menu.Item>
         {rightItems.map(item => <NavLink className="a" to={item.url}><Menu.Item style={{height: "60px"}} as="a" key={item.key}>{item.content}</Menu.Item></NavLink>)}
       </Menu.Menu>
