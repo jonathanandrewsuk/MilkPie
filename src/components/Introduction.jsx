@@ -3,7 +3,7 @@ import { Container, Grid, Header } from 'semantic-ui-react';
 
 const ThemingLayout = () => (
   <Container>
-    <Header as='h1'>Welcome to Milk Pie <span role="img" aria-label="Milk">🥛</span><span role="img" aria-label="Pie">🥧</span></Header>
+    <Header as='h1'>Welcome to Milk Pie<span role="img" aria-label="Milk">🥛</span><span role="img" aria-label="Pie">🥧</span></Header>
 
 
 
