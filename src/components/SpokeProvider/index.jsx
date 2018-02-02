@@ -32,8 +32,8 @@ const SpokeProvider = props => (
                 const cover = book.cover;
                 return (<Card.Content key={i}>
                 Request from {rfq.userName}
-                  <hr/>
-                {book.quoteSent? 
+                  <hr/>                
+                {rfq.quotes && Object.values(rfq.quotes).find(q => q.seller.toLowerCase() === seller.toLowerCase())? 
                   <div className="ui one buttons mini">
                     <Button
                       basic

@@ -12,6 +12,7 @@ export const UPDATE_QUOTES = 'UPDATE_QUOTES';
 export const UPDATE_RFQ_ERRORS = 'UPDATE_RFQ_ERRORS';
 export const UPDATE_SELECTED_RFQ = 'UPDATE_SELECTED_RFQ';
 
+export const S$_DELETE_DATA = 'S$_DELETE_DATA';
 
 // Provider
 export const SAGAgetBooks = ({ storeId }) => (
@@ -45,7 +46,7 @@ export const SAGAcreateQuote = ({ rfqId, price, cover, providerId, seller }) => 
       price,
       cover,
       providerId,
-      seller,
+      seller
     },
   }
 );
@@ -81,3 +82,12 @@ export const updateQuotes = data => (
     data,
   }
 );
+
+
+export const SAGAdeleteData = data => (
+  {
+    type: S$_DELETE_DATA,
+    data,
+  }
+);
+

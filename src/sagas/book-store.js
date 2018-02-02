@@ -16,6 +16,7 @@ import {
   S$_CREATE_QUOTE,
   S$_GET_BOOKS,
   updateBooks,
+  S$_DELETE_DATA,
 } from '../actions/book-store';
 
 const config = {
@@ -123,9 +124,19 @@ function* SAGAgetBooks({ data: { storeId } }) {
   }
 }
 
+async function deleteFromFirebase(path) {
+  const key = await database.ref(path).remove();
+  return key;
+}
+
+function* SAGAdeleteData() {
+  yield call(deleteFromFirebase, '/markets');
+}
+
 export default function* allSettingsSagas() {
   yield takeLatest(S$_CREATE_RFQ, SAGAcreateRfq);
   yield takeLatest(S$_CREATE_QUOTE, SAGAcreateQuote);
   yield takeLatest(S$_GET_BOOKS, SAGAgetBooks);
+  yield takeLatest(S$_DELETE_DATA, SAGAdeleteData);
   yield listenToRfqs('/markets/book-store-idqweqweid/rfqs');
 }

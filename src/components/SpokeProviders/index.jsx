@@ -1,10 +1,10 @@
 import React from 'react';
-import { List, Segment } from 'semantic-ui-react';
+import { List, Segment, Button } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 
-const SpokeProviders = () => (
-  <Segment inverted>
-    <List divided inverted relaxed>
+const SpokeProviders = (props) => (
+  <Segment >
+    <List divided relaxed>
       <List.Item>
         <List.Content as={Link} to="/spoke-provider/b-n-rice">
           <List.Header>Book n Rice</List.Header>
@@ -21,6 +21,12 @@ const SpokeProviders = () => (
         <List.Content as={Link} to="/spoke-provider/b-n-booz">
           <List.Header>Book n Booz</List.Header>
           Offer poetic books from unheard authors
+        </List.Content>
+      </List.Item>
+      <List.Item>
+        <List.Content>
+          <List.Header>Clear Database</List.Header>
+          <Button onClick={() => props.bookStoreActions.SAGAdeleteData()}>Delete</Button> 
         </List.Content>
       </List.Item>
     </List>

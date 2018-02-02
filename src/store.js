@@ -23,6 +23,7 @@ export default function createAppStore(initialValue = {}) {
     // Create the redux store.
     store = createStore(reducer, initialValue, composeEnhancers(middleware));
   } else {
+    Server.on();
     // Production mode.
     store = createStore(reducer, initialValue, middleware);
   }
