@@ -18,7 +18,7 @@ const SpokeClient = () => (
 
     <Grid columns={2} stackable>
       <Grid.Column>
-        <Header as='h1'>Pick your favourite author</Header>
+        <Header as='h1'>Pick your favourite author!</Header>
 
             <Dropdown placeholder='Please Select' fluid selection options={friendOptions} />
 
