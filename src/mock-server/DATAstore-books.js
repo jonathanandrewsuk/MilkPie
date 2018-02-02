@@ -1,5 +1,29 @@
 import { Faker } from 'react-mock';
 
+export const STORES = {
+  'b-n-rice': {
+    name: 'Book n Rice',
+  },
+  'b-n-pie': {
+    name: 'Book n Pie',
+  },
+  'b-n-booz': {
+    name: 'Book n Booz',
+  },
+};
+
+
+export function createCliffSchema(storeId) {
+  const STORE = STORES[storeId];
+  return {
+    title: () => Faker.random.words(),
+    cover: 'https://i.imgur.com/hSFbheY.jpg',
+    price: () => Faker.random.number(),
+    seller: STORE.name,
+    author: 'CLiff Vick',
+  };
+}
+
 export const cliffSchema = {
   title: () => Faker.random.words(),
   cover: 'https://i.imgur.com/hSFbheY.jpg',

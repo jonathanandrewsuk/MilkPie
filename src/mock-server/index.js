@@ -1,6 +1,6 @@
 import { Server } from 'react-mock';
 
-import bookSchema, { cliffSchema } from './DATAstore-books';
+import bookSchema, { createCliffSchema } from './DATAstore-books';
 
 const PHOTOS = {
   10: {
@@ -17,12 +17,14 @@ const PHOTOS = {
 
 export default {
   on: () => {
-    Server.mockGet('api/v1/photos', () => {
+    Server.mockGet('/api/v1/photos', () => {
       const all = JSON.stringify(Object.keys(PHOTOS).map(k => PHOTOS[k]));
       return [200, { 'Content-Type': 'application/json' }, all];
     }, 1000);
 
-    Server.mockGet('api/v1/:storeId/books', (request, generator) => {
+    Server.mockGet('/api/v1/:storeId/books', (request, generator) => {
+      const cliffSchema = createCliffSchema(request.params.storeId);
+
       const books = {
         ...generator.next(2, bookSchema, true),
         ...generator.next(1, cliffSchema, true),

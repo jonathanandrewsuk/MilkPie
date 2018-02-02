@@ -15,7 +15,7 @@ function getErrorMessage(err) {
   if (err && err.response && err.response.data && err.response.data.error) {
     return err.response.data.error;
   }
-  return 'An unexpected error occurred';
+  return 'An unexpected error occurred' + err;
 }
 
 function getResponseData(res) {

@@ -7,7 +7,16 @@ import HttpServices from '../common/helpers/HttpServices';
 
 
 import { syncChannel } from './sync-channel';
-import { updateRfqs, updateRfqErrors, S$_CREATE_RFQ, updateQuotes, S$_GET_QUOTES, S$_GET_BOOKS, updateBooks } from '../actions/book-store';
+import {
+  updateRfqs,
+  updateRfqErrors,
+  updateSelectedRfq,
+  S$_CREATE_RFQ,
+  updateQuotes,
+  S$_CREATE_QUOTE,
+  S$_GET_BOOKS,
+  updateBooks,
+} from '../actions/book-store';
 
 const config = {
   apiKey: 'AIzaSyCTbEFQcvGfLfyfJfwyK3nVrxEQK3gZQ1Y',
@@ -72,36 +81,51 @@ function* listenToQuotes({ rfqId }) {
   }
 }
 
-async function pushToFirebase(object) {
-  const key = await database.ref('/markets/book-store-idqweqweid/rfqs').push(object);
+async function pushToFirebase(path, object) {
+  const key = await database.ref(path).push(object);
   return key;
 }
 
-function* createRfq({ data: { author, clientId } }) {
-  const key = yield call(pushToFirebase, {
-    author, clientId,
+function* SAGAcreateRfq({ data: { author, clientId, userName } }) {
+  const { key } = yield call(pushToFirebase, '/markets/book-store-idqweqweid/rfqs', {
+    author, clientId, userName,
   });
+
   // `key` is something like "-Kfn7EyLEoHax0YGoQr0"
   console.log('[book-store.createRfq] key', key);
+  yield put(updateSelectedRfq({
+    key, author, clientId, quotes: {},
+  }));
+}
+
+function* SAGAcreateQuote({ data: { rfqId, price, cover, providerId, seller } }) {
+  const { key } = yield call(pushToFirebase, `/markets/book-store-idqweqweid/rfqs/${rfqId}/quotes`, {
+    price, cover, providerId, seller,
+  });
+
+  // `key` is something like "-Kfn7EyLEoHax0YGoQr0"
+  console.log('[book-store.createRfq] key', key);
+  // yield put(updateSelectedRfq({}));
 }
 
 
 function* SAGAgetBooks({ data: { storeId } }) {
   try {
     yield put(showLoading());
+    yield put(updateBooks({}));
     const data = yield call(HttpServices.async.get, `/api/v1/${storeId}/books`);
     yield put(updateBooks(data));
   } catch (e) {
     // yield put({ type: FETCHING_FAILED, data: e.message});
-    console.log('getPhotos error', e);
+    console.error('getPhotos error', e);
   } finally {
     yield put(hideLoading());
   }
 }
 
 export default function* allSettingsSagas() {
-  yield takeLatest(S$_CREATE_RFQ, createRfq);
-  yield takeLatest(S$_GET_QUOTES, listenToQuotes);
+  yield takeLatest(S$_CREATE_RFQ, SAGAcreateRfq);
+  yield takeLatest(S$_CREATE_QUOTE, SAGAcreateQuote);
   yield takeLatest(S$_GET_BOOKS, SAGAgetBooks);
   yield listenToRfqs('/markets/book-store-idqweqweid/rfqs');
 }

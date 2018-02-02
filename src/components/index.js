@@ -11,6 +11,7 @@ import APICaller from './APICaller';
 import LoginForm from './LoginForm';
 import SpokeClient from './SpokeClient';
 import SpokeProvider from './SpokeProvider';
+import SpokeProviders from './SpokeProviders';
 
 
 export {
@@ -27,4 +28,5 @@ export {
   LoginForm,
   SpokeClient,
   SpokeProvider,
+  SpokeProviders,
 };

@@ -10,7 +10,7 @@ import * as exampleActions from '../actions/example';
 import * as bookStoreActions from '../actions/book-store';
 
 
-import { ThreeColumnLayout, ThemingLayout, Introduction, ReduxExample, APICaller, LoginForm, SpokeClient, SpokeProvider } from '../components';
+import { ThreeColumnLayout, ThemingLayout, Introduction, ReduxExample, APICaller, LoginForm, SpokeClient, SpokeProvider, SpokeProviders } from '../components';
 
 class Main extends Component {
   constructor(props) {
@@ -26,14 +26,14 @@ class Main extends Component {
           <Switch>
             <Route exact path='/' render={ (props) => <Introduction {...this.props} {...props} />} />
             <Route exact path='/spoke-client' render={(props) => (<SpokeClient {...this.props} {...props} />)}/>
-            {/* <Route exact path='/spoke-provider' render={(props) => (<SpokeProvider {...this.props} {...props} />)}/> */}
+            <Route exact path='/spoke-provider' render={(props) => (<SpokeProviders {...this.props} {...props} />)}/>
 
             <SAGARoute
               {...this.props}
               exact
-              path="/spoke-provider"
+              path="/spoke-provider/:storeId"
               component={SpokeProvider}
-              fetchData={props => props.bookStoreActions.SAGAgetBooks({ storeId: 'books-n-rice-store' })}
+              fetchData={props => props.bookStoreActions.SAGAgetBooks({ storeId: window.location.pathname.split('/')[window.location.pathname.split('/').length-1].replace(':','') })}
             />
 
           </Switch>

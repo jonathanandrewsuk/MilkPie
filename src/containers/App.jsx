@@ -10,10 +10,10 @@ const leftItems = [
     content: 'Home', key: 'home', icon: 'home', url: '/',
   },
   {
-    content: 'Spoke Client', key: 'spoke-client', icon: 'external square', url: 'spoke-client',
+    content: 'My Favorite Author (Client)', key: 'spoke-client', icon: 'external square', url: '/spoke-client',
   },
   {
-    content: 'Spoke Provider', key: 'spoke-provider', icon: 'tree', url: 'spoke-provider',
+    content: 'BN (Provider)', key: 'spoke-provider', icon: 'tree', url: '/spoke-provider',
   },
 ];
 

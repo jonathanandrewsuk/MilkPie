@@ -10,6 +10,7 @@ export const S$_GET_QUOTES = 'S$_GET_QUOTES';
 export const UPDATE_QUOTES = 'UPDATE_QUOTES';
 
 export const UPDATE_RFQ_ERRORS = 'UPDATE_RFQ_ERRORS';
+export const UPDATE_SELECTED_RFQ = 'UPDATE_SELECTED_RFQ';
 
 
 // Provider
@@ -36,10 +37,16 @@ export const updateRfqs = data => (
   }
 );
 // Provider
-export const createQuote = ({ rfqId, price, providerId }) => (
+export const SAGAcreateQuote = ({ rfqId, price, cover, providerId, seller }) => (
   {
     type: S$_CREATE_QUOTE,
-    data: { rfqId, price, providerId },
+    data: {
+      rfqId,
+      price,
+      cover,
+      providerId,
+      seller,
+    },
   }
 );
 
@@ -53,12 +60,20 @@ export const updateRfqErrors = data => (
 
 
 // Client
-export const createRfq = ({ author, clientId }) => (
+export const SAGAcreateRfq = ({ author, clientId, userName }) => (
   {
     type: S$_CREATE_RFQ,
-    data: { author, clientId },
+    data: { author, clientId, userName },
   }
 );
+
+export const updateSelectedRfq = ({ key, author, clientId, userName }) => (
+  {
+    type: UPDATE_SELECTED_RFQ,
+    data: { key, author, clientId, userName },
+  }
+);
+
 // Client
 export const updateQuotes = data => (
   {

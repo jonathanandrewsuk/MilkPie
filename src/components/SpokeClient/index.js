@@ -16,7 +16,20 @@ const SpokeIncomingQuotes = (props) => (
       {
         props.bookStore.selectedRfq.quotes?
         Object.values(props.bookStore.selectedRfq.quotes)
-          .map((quote, i) => <Card >quote!</Card>):
+          .map((quote, i) => 
+          <Card > <Image src={quote.cover}/>
+          <Card.Content>
+            <Card.Header>{quote.title}</Card.Header>
+            <Card.Meta>Seller: {quote.seller}</Card.Meta>
+            <Card.Description>${quote.price}</Card.Description>
+          </Card.Content>
+          <Card.Content>
+            <div className='ui two buttons'>
+              <Button basic color='green'>Approve</Button>
+              <Button basic color='red'>Decline</Button>
+            </div>
+          </Card.Content>
+          </Card>):
           <Card ><Card.Content>no response yet...</Card.Content></Card>
       }
 
@@ -35,7 +48,7 @@ const SpokeClient = (props) => (
             style={{marginTop: 10}}
             color='green'
             fluid
-            onClick={() => props.bookStoreActions.createRfq({ author: 'Cliff Vick', clientId: 'client-app-oruser-id' })}
+            onClick={() => props.bookStoreActions.SAGAcreateRfq({ author: 'Cliff Vick', clientId: 'client-app-oruser-id', userName: 'Jonny A' })}
           >
             Get Prices
           </Button>

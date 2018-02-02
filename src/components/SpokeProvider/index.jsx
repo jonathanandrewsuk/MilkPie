@@ -24,15 +24,35 @@ const SpokeProvider = props => (
               <Card.Description>${book.price}</Card.Description>
             </Card.Content>
             {book.rfqs?
-              Object.values(book.rfqs).map((rfq, i) => <Card.Content key={i}>
-                Request from {rfq.clientId}
+              Object.keys(book.rfqs).map((rfqId, i) => {
+                const rfq = book.rfqs[rfqId]
+                const price = book.price;         
+                const providerId = book.id;              
+                const seller = book.seller;
+                const cover = book.cover;
+                return (<Card.Content key={i}>
+                Request from {rfq.userName}
+                  <hr/>
+                {book.quoteSent? 
+                  <div className="ui one buttons mini">
+                    <Button
+                      basic
+                      color="orange"
+                      onClick={() => props.bookStoreActions.SAGAcreateQuote({ rfqId, price, cover, providerId, seller })}
+                      disabled
+                    >Waiting for acceptance!</Button>
+                  </div>:
+                  <div className="ui two buttons mini">
+                    <Button
+                      basic
+                      color="green"
+                      onClick={() => props.bookStoreActions.SAGAcreateQuote({ rfqId, price, cover, providerId, seller })}
+                    >Send price</Button>
+                    <Button basic color="red">Ignore</Button>
+                  </div>
+                }
 
-                <div className="ui two buttons mini">
-                  <Button basic color="green">Send price</Button>
-                  <Button basic color="red">Ignore</Button>
-                </div>
-
-              </Card.Content>) :
+              </Card.Content>)}) :
               <Card.Content>no buyers</Card.Content>
             }
         </Card>
