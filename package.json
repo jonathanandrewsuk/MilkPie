@@ -5,7 +5,8 @@
   "dependencies": {
     "axios": "^0.17.1",
     "faker": "^4.1.0",
-    "pretender": "git+https://github.com/fuse-mars/pretender.git",
+    "react-mock": "2.0.0",    
+    "firebase": "4.9.1",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "react-redux": "^5.0.6",

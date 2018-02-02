@@ -4,9 +4,13 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router';
 
-import * as exampleActions from '../actions/example';
+import SAGARoute from '../common/helpers/SAGARoute';
 
-import { ThreeColumnLayout, ThemingLayout, Introduction, ReduxExample, APICaller, LoginForm, SpokeClient } from '../components';
+import * as exampleActions from '../actions/example';
+import * as bookStoreActions from '../actions/book-store';
+
+
+import { ThreeColumnLayout, ThemingLayout, Introduction, ReduxExample, APICaller, LoginForm, SpokeClient, SpokeProvider } from '../components';
 
 class Main extends Component {
   constructor(props) {
@@ -22,7 +26,16 @@ class Main extends Component {
           <Switch>
             <Route exact path='/' render={ (props) => <Introduction {...this.props} {...props} />} />
             <Route exact path='/spoke-client' render={(props) => (<SpokeClient {...this.props} {...props} />)}/>
-            <Route exact path='/spoke-provider' render={(props) => (<ThreeColumnLayout {...this.props} {...props} />)}/>
+            {/* <Route exact path='/spoke-provider' render={(props) => (<SpokeProvider {...this.props} {...props} />)}/> */}
+
+            <SAGARoute
+              {...this.props}
+              exact
+              path="/spoke-provider"
+              component={SpokeProvider}
+              fetchData={props => props.bookStoreActions.SAGAgetBooks({ storeId: 'books-n-rice-store' })}
+            />
+
           </Switch>
         </main>
       </div>
@@ -33,13 +46,14 @@ class Main extends Component {
 function mapStateToProps(state, props) {
     return {
         example: state.example,
-
+        bookStore: state.bookStore,
     };
 }
 
 function mapDispatchToProps(dispatch) {
     return {
       exampleActions: bindActionCreators(exampleActions, dispatch),
+      bookStoreActions: bindActionCreators(bookStoreActions, dispatch),
     }
 }
 

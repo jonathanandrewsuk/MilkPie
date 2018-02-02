@@ -65,7 +65,7 @@ module.exports = function(callback) {
     console.error('Cannot build files. Run "gulp install" to set-up Semantic');
     return;
   }
-  console.log("stream", source.definitions + '/**/' + globs.components + '.less')
+
   // unified css stream
   stream = gulp.src(source.definitions + '/**/' + globs.components + '.less')
     .pipe(plumber(settings.plumber.less))

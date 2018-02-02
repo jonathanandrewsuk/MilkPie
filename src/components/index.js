@@ -1,7 +1,7 @@
-import NavBar from './NavBar/index.js'
+import NavBar from './NavBar/index.js';
 import Social from './ThreeColumnLayout/index.jsx';
-import FeedSummary from './ThreeColumnLayout/FeedSummary'
-import MiniMenu from './ThreeColumnLayout/MiniMenu'
+import FeedSummary from './ThreeColumnLayout/FeedSummary';
+import MiniMenu from './ThreeColumnLayout/MiniMenu';
 import MyFeed from './ThreeColumnLayout/MyFeed';
 import ThreeColumnLayout from './ThreeColumnLayout/index.jsx';
 import ThemingLayout from './ThemingLayout';
@@ -10,6 +10,8 @@ import ReduxExample from './ReduxExample';
 import APICaller from './APICaller';
 import LoginForm from './LoginForm';
 import SpokeClient from './SpokeClient';
+import SpokeProvider from './SpokeProvider';
+
 
 export {
   NavBar,
@@ -24,4 +26,5 @@ export {
   APICaller,
   LoginForm,
   SpokeClient,
+  SpokeProvider,
 };

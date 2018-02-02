@@ -2,7 +2,7 @@ import axios from 'axios';
 
 //= =================== localhost ====================
 // This isn't being used, the api url in helpers is where it actually calls fro
-const DEFAULT_BASE_URL = process.env.BACKEND_HOST || 'api-url';
+const DEFAULT_BASE_URL = process.env.BACKEND_HOST || '';
 
 //= =================== staging ====================
 
