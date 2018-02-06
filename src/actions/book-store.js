@@ -4,7 +4,6 @@ export const UPDATE_RFQS = 'UPDATE_RFQS';
 export const S$_GET_BOOKS = 'S$_GET_BOOKS';
 export const UPDATE_BOOKS = 'UPDATE_BOOKS';
 
-
 export const S$_CREATE_RFQ = 'S$_CREATE_RFQ';
 export const S$_GET_QUOTES = 'S$_GET_QUOTES';
 export const UPDATE_QUOTES = 'UPDATE_QUOTES';

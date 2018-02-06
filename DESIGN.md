@@ -6,17 +6,17 @@ Helping people find cheap books written by their favorite authors.
 
 ## Flow:
 
-A **person** tells "FAOnline" the *name* of the author.
+A **buyer** tells "FAOnline" the *name* of the author.
 "FAOnline" sends this *name* to registered **bookStores**.
 Each **bookStore** responds with a *price* amount that they sell the author's book for.
 
 ## Store Model: (using Spoke terminology)
 This will help us create the initial state of our app.
 
-* **person** is a `Spoke client` that can create `Request for Quotes (rfq)` and receive `Quotes`
+* **buyer** is a `Spoke client` that can create `Request for Quotes (rfq)` and receive `Quotes`
 ```typescript
-// A person gives us the name, so we create an rfq for using this info.
-namespace person { // person becomes a redux slice
+// A buyer gives us the name, so we create an rfq for using this info.
+namespace buyer { // buyer becomes a redux slice
   interface Rfqs {
     [rfqId: string]: Rfq
   }
