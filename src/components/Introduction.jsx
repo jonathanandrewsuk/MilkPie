@@ -20,7 +20,6 @@ const ThemingLayout = () => (
             <li> So we create a portal for Jonny to easily contact stores that can help him find a good book to read that does not cost much money</li>
           </ul>
         </p>
-
         <hr />
         <br />
         <br />
